@@ -289,16 +289,16 @@
           "description": "Reports call arguments with `Boolean` type without explicit parameter names specified.\n\n\nWhen multiple boolean literals are passed sequentially, it's easy to forget parameter ordering that could lead to mistakes.\nExplicit parameter names allow for easier code reading and understanding.\n\n**Example:**\n\n\n      fun check(checkName: Boolean, checkAddress: Boolean, checkPhone: Boolean) {}\n\n      fun usage() {\n          check(true, false, true) // What does this mean?\n      }\n\nA quick-fix adds missing parameter names:\n\n\n      fun check(checkName: Boolean, checkAddress: Boolean, checkPhone: Boolean) {}\n\n      fun usage() {\n          check(checkName = true, checkAddress = false, checkPhone = true)\n      }\n"
         },
         {
-          "shortName": "ReplaceGuardClauseWithFunctionCall",
-          "displayName": "Guard clause can be replaced with Kotlin's function call",
-          "enabled": false,
-          "description": "Reports guard clauses that can be replaced with a function call.\n\n**Example:**\n\n      fun test(foo: Int?) {\n          if (foo == null) throw IllegalArgumentException(\"foo\") // replaceable clause\n      }\n\nAfter the quick-fix is applied:\n\n      fun test(foo: Int?) {\n          checkNotNull(foo)\n      }\n"
-        },
-        {
           "shortName": "ReplaceSizeZeroCheckWithIsEmpty",
           "displayName": "Size zero check can be replaced with 'isEmpty()'",
           "enabled": false,
           "description": "Reports `size == 0` checks on `Collections/Array/String` that should be replaced with `isEmpty()`.\n\nUsing `isEmpty()` makes your code simpler.\n\nThe quick-fix replaces the size check with `isEmpty()`.\n\n**Example:**\n\n\n      fun foo() {\n          val arrayOf = arrayOf(1, 2, 3)\n          arrayOf.size == 0\n      }\n\nAfter the quick-fix is applied:\n\n\n      fun foo() {\n          val arrayOf = arrayOf(1, 2, 3)\n          arrayOf.isEmpty()\n      }\n"
+        },
+        {
+          "shortName": "ReplaceGuardClauseWithFunctionCall",
+          "displayName": "Guard clause can be replaced with Kotlin's function call",
+          "enabled": false,
+          "description": "Reports guard clauses that can be replaced with a function call.\n\n**Example:**\n\n      fun test(foo: Int?) {\n          if (foo == null) throw IllegalArgumentException(\"foo\") // replaceable clause\n      }\n\nAfter the quick-fix is applied:\n\n      fun test(foo: Int?) {\n          checkNotNull(foo)\n      }\n"
         },
         {
           "shortName": "ReplaceToStringWithStringTemplate",
@@ -361,16 +361,16 @@
           "description": "Reports `if-then` expressions that can be folded into elvis (`?:`) expressions.\n\n**Example:**\n\n\n      fun maybeFoo(): String? = \"foo\"\n\n      var foo = maybeFoo()\n      val bar = if (foo == null) \"hello\" else foo\n\nThe quick fix converts the `if-then` expression into an elvis (`?:`) expression:\n\n\n      fun maybeFoo(): String? = \"foo\"\n\n      var foo = maybeFoo()\n      val bar = foo ?: \"hello\"\n"
         },
         {
-          "shortName": "ReplaceNotNullAssertionWithElvisReturn",
-          "displayName": "Not-null assertion can be replaced with 'return'",
-          "enabled": false,
-          "description": "Reports not-null assertion (`!!`) calls that can be replaced with the elvis operator and return (`?: return`).\n\nA not-null assertion can lead to NPE (NullPointerException) that is not expected. Avoiding the use of `!!` is good practice.\n\nThe quick-fix replaces the not-null assertion with `return` or `return null`.\n\n**Example:**\n\n\n      fun test(number: Int?) {\n          val x = number!!\n      }\n\nAfter the quick-fix is applied:\n\n\n      fun test(number: Int?) {\n          val x = number ?: return\n      }\n"
-        },
-        {
           "shortName": "ReplaceStringFormatWithLiteral",
           "displayName": "'String.format' call can be replaced with string templates",
           "enabled": false,
           "description": "Reports `String.format` calls that can be replaced with string templates.\n\nUsing string templates makes your code simpler.\n\nThe quick-fix replaces the call with a string template.\n\n**Example:**\n\n\n      fun main() {\n          val id = \"abc\"\n          val date = \"123\"\n          val s = String.format(\"%s_%s_%s\", id, date, id)\n      }\n\nAfter the quick-fix is applied:\n\n\n      fun main() {\n          val id = \"abc\"\n          val date = \"123\"\n          val s = \"${id}_${date}_$id\"\n      }\n"
+        },
+        {
+          "shortName": "ReplaceNotNullAssertionWithElvisReturn",
+          "displayName": "Not-null assertion can be replaced with 'return'",
+          "enabled": false,
+          "description": "Reports not-null assertion (`!!`) calls that can be replaced with the elvis operator and return (`?: return`).\n\nA not-null assertion can lead to NPE (NullPointerException) that is not expected. Avoiding the use of `!!` is good practice.\n\nThe quick-fix replaces the not-null assertion with `return` or `return null`.\n\n**Example:**\n\n\n      fun test(number: Int?) {\n          val x = number!!\n      }\n\nAfter the quick-fix is applied:\n\n\n      fun test(number: Int?) {\n          val x = number ?: return\n      }\n"
         },
         {
           "shortName": "ReplaceSubstringWithSubstringBefore",
@@ -397,16 +397,16 @@
           "description": "Reports calls to `Collection<T>.count()`.\n\n\nThis function call can be replaced with `.size`.\n\n\n`.size` form ensures that the operation is O(1) and won't allocate extra objects, whereas\n`count()` could be confused with `Iterable<T>.count()`, which is O(n) and allocating.\n\n\n**Example:**\n\n      fun foo() {\n          var list = listOf(1,2,3)\n          list.count() // replaceable 'count()'\n      }\n\nAfter the quick-fix is applied:\n\n      fun foo() {\n          var list = listOf(1,2,3)\n          list.size\n      }\n"
         },
         {
-          "shortName": "JavaCollectionsStaticMethod",
-          "displayName": "Java Collections static method call can be replaced with Kotlin stdlib",
-          "enabled": false,
-          "description": "Reports a Java `Collections` static method call that can be replaced with Kotlin stdlib.\n\n**Example:**\n\n\n      import java.util.Collections\n\n      fun test() {\n          val mutableList = mutableListOf(1, 2)\n          Collections.fill(mutableList, 3)\n      }\n\nThe quick fix replaces Java `Collections` static method call with the corresponding Kotlin stdlib method call:\n\n\n      import java.util.Collections\n\n      fun test() {\n          val mutableList = mutableListOf(1, 2)\n          mutableList.fill(3)\n      }\n"
-        },
-        {
           "shortName": "RedundantAsync",
           "displayName": "Redundant 'async' call",
           "enabled": false,
           "description": "Reports `async` calls that are immediately followed by `await`.\nSuch calls can be replaced with blocking calls.\n\n**Example:**\n\n\n      suspend fun test(ctx: CoroutineContext, scope: CoroutineScope) {\n          scope.async(ctx) { doSomeJob() }.await()\n      }\n\nAfter the quick-fix is applied:\n\n\n      suspend fun test(ctx: CoroutineContext, scope: CoroutineScope) {\n          withContext(scope.coroutineContext + ctx) { doSomeJob() }\n      }\n"
+        },
+        {
+          "shortName": "JavaCollectionsStaticMethod",
+          "displayName": "Java Collections static method call can be replaced with Kotlin stdlib",
+          "enabled": false,
+          "description": "Reports a Java `Collections` static method call that can be replaced with Kotlin stdlib.\n\n**Example:**\n\n\n      import java.util.Collections\n\n      fun test() {\n          val mutableList = mutableListOf(1, 2)\n          Collections.fill(mutableList, 3)\n      }\n\nThe quick fix replaces Java `Collections` static method call with the corresponding Kotlin stdlib method call:\n\n\n      import java.util.Collections\n\n      fun test() {\n          val mutableList = mutableListOf(1, 2)\n          mutableList.fill(3)\n      }\n"
         },
         {
           "shortName": "MoveVariableDeclarationIntoWhen",
@@ -535,16 +535,16 @@
           "description": "Reports `isEmpty`, `isBlank`, `isNotEmpty`, or `isNotBlank` calls in an `if` statement to assign a default value.\n\nThe quick-fix replaces the `if` condition with `ifEmpty` or `ifBlank` calls.\n\n**Example:**\n\n\n      fun test(list: List<Int>): List<Int> {\n          return if (list.isEmpty()) {\n              println()\n              foo()\n          } else {\n              list\n          }\n      }\n\nAfter the quick-fix is applied:\n\n\n      fun test(list: List<Int>): List<Int> {\n          return list.ifEmpty {\n              println()\n              foo()\n          }\n      }\n\nThis inspection only reports if the Kotlin language version of the project or module is 1.3 or higher."
         },
         {
-          "shortName": "ReplaceWithImportAlias",
-          "displayName": "Fully qualified name can be replaced with existing import alias",
-          "enabled": false,
-          "description": "Reports fully qualified names that can be replaced with an existing import alias.\n\n**Example:**\n\n\n    import foo.Foo as Bar\n    fun main() {\n        foo.Foo()\n    }\n\nAfter the quick-fix is applied:\n\n\n    import foo.Foo as Bar\n    fun main() {\n        Bar()\n    }\n"
-        },
-        {
           "shortName": "ReplaceNegatedIsEmptyWithIsNotEmpty",
           "displayName": "Negated call can be simplified",
           "enabled": false,
           "description": "Reports negation `isEmpty()` and `isNotEmpty()` for collections and `String`, or `isBlank()` and `isNotBlank()` for `String`.\n\nUsing corresponding functions makes your code simpler.\n\nThe quick-fix replaces the negation call with the corresponding call from the Standard Library.\n\n**Example:**\n\n\n      fun main() {\n          val list = listOf(1,2,3)\n          if (!list.isEmpty()) {\n              // do smth\n          }\n      }\n\nAfter the quick-fix is applied:\n\n\n      fun main() {\n          val list = listOf(1,2,3)\n          if (list.isNotEmpty()) {\n              // do smth\n          }\n      }\n"
+        },
+        {
+          "shortName": "ReplaceWithImportAlias",
+          "displayName": "Fully qualified name can be replaced with existing import alias",
+          "enabled": false,
+          "description": "Reports fully qualified names that can be replaced with an existing import alias.\n\n**Example:**\n\n\n    import foo.Foo as Bar\n    fun main() {\n        foo.Foo()\n    }\n\nAfter the quick-fix is applied:\n\n\n    import foo.Foo as Bar\n    fun main() {\n        Bar()\n    }\n"
         },
         {
           "shortName": "SimplifyBooleanWithConstants",
@@ -1252,16 +1252,16 @@
           "description": "Reports [double-checked locking](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html).\n\n\nDouble-checked locking tries to initialize a field on demand and in a thread-safe manner while avoiding the cost of synchronization.\nUnfortunately it is not thread-safe when used on a field that is not declared `volatile`.\nWhen using Java 1.4 or earlier, double-checked locking doesn't work even with `volatile` fields.\nRead the article linked above for the detailed explanation of the problem.\n\n\nExample of an incorrect double-checked locking:\n\n\n      class Foo {\n        private Helper helper = null;\n        public Helper getHelper() {\n          if (helper == null)\n            synchronized(this) {\n              if (helper == null) helper = new Helper();\n            }\n            return helper;\n          }\n        }\n        // other functions and members...\n      }\n"
         },
         {
-          "shortName": "ConditionSignal",
-          "displayName": "Call to 'signal()' instead of 'signalAll()'",
-          "enabled": false,
-          "description": "Reports calls to `java.util.concurrent.locks.Condition.signal()`. While occasionally useful, in almost all cases `signalAll()` is a better and safer choice."
-        },
-        {
           "shortName": "ThreadLocalNotStaticFinal",
           "displayName": "ThreadLocal field not declared static final",
           "enabled": false,
           "description": "Reports fields of type `java.lang.ThreadLocal` that are not declared `static final`.\n\n\nIn the most common case, a `java.lang.ThreadLocal` instance associates state with a thread.\nA non-static non-final `java.lang.ThreadLocal` field associates state with an instance-thread combination.\nThis is usually unnecessary and quite often is a bug that can cause memory leaks and incorrect behavior.\n\n\nA quick-fix is suggested to make the field `static final`.\n\n\n**Example:**\n\n\n      private ThreadLocal tl = ThreadLocal.withInitial(() -> Boolean.TRUE);\n"
+        },
+        {
+          "shortName": "ConditionSignal",
+          "displayName": "Call to 'signal()' instead of 'signalAll()'",
+          "enabled": false,
+          "description": "Reports calls to `java.util.concurrent.locks.Condition.signal()`. While occasionally useful, in almost all cases `signalAll()` is a better and safer choice."
         },
         {
           "shortName": "CallToNativeMethodWhileLocked",
@@ -2490,16 +2490,16 @@
           "description": "Reports methods that are declared `final`. Such methods can't be overridden and may indicate a lack of object-oriented design. Some coding standards discourage `final` methods."
         },
         {
-          "shortName": "NonFinalUtilityClass",
-          "displayName": "Utility class is not 'final'",
-          "enabled": false,
-          "description": "Reports utility classes that aren't `final`.\n\nUtility classes have all fields and methods declared as `static`.\nMaking them `final` prevents them from being accidentally subclassed."
-        },
-        {
           "shortName": "Singleton",
           "displayName": "Singleton",
           "enabled": false,
           "description": "Reports singleton classes.\n\nSingleton classes are declared in a way that only one instance of the class can ever be instantiated. Singleton classes complicate testing,\nand their presence may indicate a lack of object-oriented design.\n\n**Example:**\n\n\n      class Singleton {\n        private static final Singleton ourInstance = new Singleton();\n\n        private Singleton() {\n        }\n\n        public Singleton getInstance() {\n            return ourInstance;\n        }\n      }\n"
+        },
+        {
+          "shortName": "NonFinalUtilityClass",
+          "displayName": "Utility class is not 'final'",
+          "enabled": false,
+          "description": "Reports utility classes that aren't `final`.\n\nUtility classes have all fields and methods declared as `static`.\nMaking them `final` prevents them from being accidentally subclassed."
         },
         {
           "shortName": "StaticNonFinalField",
@@ -3035,12 +3035,6 @@
           "description": "Reports suspicious indentation of statements after a control statement without braces.\n\n\nSuch indentation can make it look like the statement is inside the control statement,\nwhen in fact it will be executed unconditionally after the control statement.\n\n**Example:**\n\n\n      class Bar {\n          void foo(int i) {\n              if (i == 0)\n                  System.out.println(\"foo\");\n                  System.out.println(\"bar\"); // warning\n              if (i == 1);\n                  System.out.println(\"great\"); // warning\n              if (i == 42)\n                  System.out.println(\"answer\");\n                      System.out.println(\"question\"); // warning\n          }\n      }\n"
         },
         {
-          "shortName": "ClassNewInstance",
-          "displayName": "Unsafe call to 'Class.newInstance()'",
-          "enabled": false,
-          "description": "Reports calls to `java.lang.Class.newInstance()`.\n\n\nThis method propagates exceptions thrown by\nthe no-arguments constructor, including checked exceptions. Usages of this method\neffectively bypass the compile-time exception checking that would\notherwise be performed by the compiler.\n\n\nA quick-fix is suggested to replace the call with a call to the\n`java.lang.reflect.Constructor.newInstance()` method, which\navoids this problem by wrapping any exception thrown by the constructor in a\n(checked) `java.lang.reflect.InvocationTargetException`.\n\n**Example:**\n\n\n      clazz.newInstance()\n\nAfter the quick-fix is applied:\n\n\n      clazz.getConstructor().newInstance();\n"
-        },
-        {
           "shortName": "MagicConstant",
           "displayName": "Magic Constant",
           "enabled": false,
@@ -3051,6 +3045,12 @@
           "displayName": "Suspicious date format pattern",
           "enabled": false,
           "description": "Reports date format patterns that are likely used by mistake.\n\nThe following patterns are reported:\n\n* Uppercase \"Y\", unless \"w\" appears nearby. It stands for \"Week year\" that is almost always the same as normal \"Year\" (lowercase \"y\" pattern), but may point to the next year at the end of December.\n* Uppercase \"M\" (month) close to \"H\", \"K\", \"h\", or \"k\" (hour). It's likely that a lowercase \"m\" (minute) was intended.\n* Lowercase \"m\" (minute) close to \"y\" (year) or \"d\" (day in month). It's likely that an uppercase \"M\" (month) was intended.\n* Uppercase \"D\" (day in year) close to \"M\", or \"L\" (month). It's likely that a lowercase \"d\" (day in month) was intended.\n* Uppercase \"S\" (milliseconds) close to \"m\" (minutes). It's likely that a lowercase \"s\" (seconds) was intended.\n\n\nExamples:  \n\n`new SimpleDateFormat(\"YYYY-MM-dd\")`: likely `\"yyyy-MM-dd\"` was intended.  \n\n`new SimpleDateFormat(\"yyyy-MM-DD\")`: likely `\"yyyy-MM-dd\"` was intended.  \n\n`new SimpleDateFormat(\"HH:MM\")`: likely `\"HH:mm\"` was intended.\n\nNew in 2020.1"
+        },
+        {
+          "shortName": "ClassNewInstance",
+          "displayName": "Unsafe call to 'Class.newInstance()'",
+          "enabled": false,
+          "description": "Reports calls to `java.lang.Class.newInstance()`.\n\n\nThis method propagates exceptions thrown by\nthe no-arguments constructor, including checked exceptions. Usages of this method\neffectively bypass the compile-time exception checking that would\notherwise be performed by the compiler.\n\n\nA quick-fix is suggested to replace the call with a call to the\n`java.lang.reflect.Constructor.newInstance()` method, which\navoids this problem by wrapping any exception thrown by the constructor in a\n(checked) `java.lang.reflect.InvocationTargetException`.\n\n**Example:**\n\n\n      clazz.newInstance()\n\nAfter the quick-fix is applied:\n\n\n      clazz.getConstructor().newInstance();\n"
         },
         {
           "shortName": "ConstantConditions",
@@ -3149,16 +3149,16 @@
           "description": "Reports `if`, `while`, `do`, `for`, and `switch` statements with empty bodies.\n\nWhile occasionally intended, such code is confusing and is often the result of a typo.\n\nThis inspection is disabled in JSP files."
         },
         {
-          "shortName": "IteratorHasNextCallsIteratorNext",
-          "displayName": "'Iterator.hasNext()' which calls 'next()'",
-          "enabled": false,
-          "description": "Reports implementations of `Iterator.hasNext()` or `ListIterator.hasPrevious()` that call `Iterator.next()` or `ListIterator.previous()` on the iterator instance. Such calls are almost certainly an error, as methods like `hasNext()` should not modify the iterators state, while `next()` should.\n\n**Example:**\n\n\n      class MyIterator implements Iterator<Integer> {\n        public boolean hasNext() {\n          return next() != null;\n        }\n      }\n"
-        },
-        {
           "shortName": "EqualsAndHashcode",
           "displayName": "'equals()' and 'hashCode()' not paired",
           "enabled": false,
           "description": "Reports classes that override the `equals()` method but do not override the `hashCode()` method or vice versa, which can potentially lead to problems when the class is added to a `Collection` or a `HashMap`.\n\nThe quick-fix generates the default implementation for an absent method.\n\nExample:\n\n\n    class StringHolder {\n      String s;\n\n      @Override public int hashCode() {\n        return s != null ? s.hashCode() : 0;\n      }\n    }\n\nAfter the quick-fix is applied:\n\n\n    class StringHolder {\n      String s;\n\n      @Override public int hashCode() {\n        return s != null ? s.hashCode() : 0;\n      }\n\n      @Override\n      public boolean equals(Object o) {\n        if (this == o) return true;\n        if (!(o instanceof StringHolder)) return false;\n\n        StringHolder holder = (StringHolder)o;\n\n        if (s != null ? !s.equals(holder.s) : holder.s != null) return false;\n\n        return true;\n      }\n    }\n"
+        },
+        {
+          "shortName": "IteratorHasNextCallsIteratorNext",
+          "displayName": "'Iterator.hasNext()' which calls 'next()'",
+          "enabled": false,
+          "description": "Reports implementations of `Iterator.hasNext()` or `ListIterator.hasPrevious()` that call `Iterator.next()` or `ListIterator.previous()` on the iterator instance. Such calls are almost certainly an error, as methods like `hasNext()` should not modify the iterators state, while `next()` should.\n\n**Example:**\n\n\n      class MyIterator implements Iterator<Integer> {\n        public boolean hasNext() {\n          return next() != null;\n        }\n      }\n"
         },
         {
           "shortName": "CastConflictsWithInstanceof",
@@ -4361,131 +4361,6 @@
       ]
     },
     {
-      "name": "Inheritance issues",
-      "inspections": [
-        {
-          "shortName": "ExtendsAnnotation",
-          "displayName": "Class extends annotation interface",
-          "enabled": false,
-          "description": "Reports classes declared as an implementation or extension of an annotation interface.\n\nWhile it is legal to extend an annotation interface, it is often done by accident,\nand the result can't be used as an annotation."
-        },
-        {
-          "shortName": "RedundantMethodOverride",
-          "displayName": "Method is identical to its super method",
-          "enabled": false,
-          "description": "Reports methods that are identical to their super methods. Such methods have the same signature as their super method and either have an identical body or only their body consists only of a call to the super method. These methods are redundant and can be removed.\n\n\nUse the checkbox below to run the inspection for the methods that override library methods.\nChecking library methods may slow down the inspection."
-        },
-        {
-          "shortName": "ProblematicVarargsMethodOverride",
-          "displayName": "Non-varargs method overrides varargs method",
-          "enabled": false,
-          "description": "Reports methods that override a variable arity (a.k.a. varargs) method but replace the variable arity parameter with an array parameter. Though this code is valid, it may be confusing and should be avoided."
-        },
-        {
-          "shortName": "InterfaceNeverImplemented",
-          "displayName": "Interface which has no concrete subclass",
-          "enabled": false,
-          "description": "Reports interfaces that have no concrete subclasses.\n\nConfigure the inspection:\n\n* Use the list below to add annotations. Interfaces declared with one of these annotations will be ignored by the inspection.\n* Use the checkbox below to ignore interfaces that only declare constant fields. Such interfaces may still be usable even without implementations."
-        },
-        {
-          "shortName": "AbstractMethodOverridesConcreteMethod",
-          "displayName": "Abstract method overrides concrete method",
-          "enabled": false,
-          "description": "Reports `abstract` methods that override concrete super methods.\n\nMethods overridden from `java.lang.Object` are not reported by this inspection."
-        },
-        {
-          "shortName": "MissingOverrideAnnotation",
-          "displayName": "Missing '@Override' annotation",
-          "enabled": false,
-          "description": "Reports methods overriding superclass methods without the `@java.lang.Override` annotation.\n\n\nAnnotating methods improves code readability since it shows the intent. In addition, the compiler emits an error when a signature\nof the overridden method doesn't match the superclass method.\n\nConfigure the inspection:\n\n* Use the **Ignore 'equals()', 'hashCode()' and 'toString()'** option to ignore these `java.lang.Object` methods: `equals()`, `hashCode()`, and `toString()`. The risk that these methods will disappear and your code won't be compiling anymore due to the `@Override` annotation is relatively small.\n* Use the **Ignore methods in anonymous classes** option to ignore methods in anonymous classes.\n\nThis inspection is only applicable if the language level of the project or module is 5 or higher."
-        },
-        {
-          "shortName": "ExtendsConcreteCollection",
-          "displayName": "Class explicitly extends a 'Collection' class",
-          "enabled": false,
-          "description": "Reports classes that extend concrete subclasses of the `java.util.Collection` or `java.util.Map` classes.\n\n\nSubclassing concrete collection types is a common yet poor practice. It is considerably more brittle than delegating collection calls."
-        },
-        {
-          "shortName": "TypeParameterExtendsFinalClass",
-          "displayName": "Type parameter extends final class",
-          "enabled": false,
-          "description": "Reports type parameters declared to extend a `final` class.\n\nSuggests replacing the type parameter with the type of the specified`final` class since\n`final` classes cannot be extended.\n\n**Example:**\n\n\n      void foo() {\n        List<? extends Integer> list; // Warning: the Integer class is a final class\n      }\n\nAfter the quick-fix is applied:\n\n\n      void foo() {\n        List<Integer> list;\n      }\n"
-        },
-        {
-          "shortName": "RefusedBequest",
-          "displayName": "Method does not call super method",
-          "enabled": false,
-          "description": "Reports methods that override a particular method without calling `super`.\n\nThis is also known as a *refused bequest*. Such methods\nmay represent a failure of abstraction and cause hard-to-trace bugs.\n\nThe inspection doesn't report default methods and methods overridden\nfrom `java.lang.Object`, except for `clone()`.\nThe `clone()` method is expected to call its `super`, which will automatically return an object of the correct type.\n\n**Examples:**\n\n*\n\n\n        class A {\n          @Override\n          public Object clone() { // reported, because it does not call 'super.clone()'\n            return new A();\n          }\n        }\n        \n*\n\n\n        interface I {\n          default void foo() {}\n        }\n\n        class A implements I {\n          // warning on method when 'Ignore 'default' super methods' and 'Ignore annotated' options are disabled\n          @Override\n          public void foo(){}\n        }\n          \nConfigure the inspection:\n\n* Use the **Only report when super method is annotated by** option to ignore `super` methods marked with the annotations from the provided list. You can manually add annotations to the list.\n* Use the **Ignore empty super methods** option to ignore `super` methods that are either empty or only throw an exception.\n* Use the **Ignore 'default' super methods** option to ignore `super` methods with the `default` keyword."
-        },
-        {
-          "shortName": "ExtendsUtilityClass",
-          "displayName": "Class extends utility class",
-          "enabled": false,
-          "description": "Reports classes that extend a utility class.\n\n\nA utility class is a non-empty class in which all fields and methods are static.\nExtending a utility class also allows for inadvertent object instantiation of the\nutility class, because the constructor cannot be made private in order to allow extension.\n\n\nConfigure the inspection:\n\n* Use the **Ignore if overriding class is a utility class** option to ignore any classes that override a utility class but are also utility classes themselves."
-        },
-        {
-          "shortName": "ImplicitSubclassInspection",
-          "displayName": "Final declaration can't be overridden at runtime",
-          "enabled": false,
-          "description": "Reports cases when your code prevents a class from being subclassed by some framework (for example, Spring or Hibernate) at runtime.\n\nTypical examples of necessary but impossible subclassing:\n\n* `final` classes marked with framework-specific annotations (for example, Spring `@Configuration`)\n* `final`, `static` or `private` methods marked with framework-specific annotations (for example, Spring `@Transactional`)\n* methods marked with framework-specific annotations inside `final` classes\n\nThe list of reported cases depends on the frameworks used."
-        },
-        {
-          "shortName": "ParameterTypePreventsOverriding",
-          "displayName": "Parameter type prevents overriding",
-          "enabled": false,
-          "description": "Reports parameter types of a subclass method that have the same name as the parameter type of the corresponding super method but belong to a different package. In these cases, the subclass method cannot override the super method.\n\n**Example:**\n\n\n    public class A {\n     public void method(Object o) {}\n    }\n\n    public class B extends A {\n     public void method(Object o) {} // warning on parameter type\n     class Object {}\n    }\n\nAfter the quick-fix is applied:\n\n\n    public class A {\n     public void method(Object o) {}\n    }\n\n    public class B extends A {\n     public void method(java.lang.Object o) {} // new parameter type\n     class Object {}\n    }\n"
-        },
-        {
-          "shortName": "NonProtectedConstructorInAbstractClass",
-          "displayName": "Public constructor in abstract class",
-          "enabled": false,
-          "description": "Reports `public` constructors of `abstract` classes.\n\n\nConstructors of `abstract` classes can only be called from the constructors of\ntheir subclasses, declaring them `public` may be confusing.\n\nThe quick-fix makes such constructors protected.\n\n**Example:**\n\n\n      public abstract class Foo {\n        public Foo () { // warning: has 'public' modifier\n            /* ... */\n        }\n      }\n\nAfter the quick-fix is applied:\n\n\n      public abstract class Foo {\n        protected Foo () {\n            /* ... */\n        }\n      }\n\nConfigure the inspection:\n\nUse the option below to ignore non-public classes."
-        },
-        {
-          "shortName": "FrequentlyUsedInheritorInspection",
-          "displayName": "Class may extend a commonly used base class",
-          "enabled": false,
-          "description": "Reports classes or interfaces that can be replaced with an implementation or extension of a more specific commonly used class or interface.\n\nFor this inspection to work, a superclass needs to be in project source files and the project needs to use the IntelliJ IDEA build system.\n\n**Example:**\n\n\n      class MyInheritor implements A {} // B suggested on the A reference\n\n      interface A {}\n\n      abstract class B implements A {}\n\n      abstract class C1 extends B {}\n      abstract class C2 extends B {}\n      abstract class C3 extends B {}\n      abstract class C4 extends B {}\n      abstract class C5 extends B {}\n\nBy default, this inspection doesn't highlight issues in the editor but only provides a quick-fix.\n\nNew in 2017.2"
-        },
-        {
-          "shortName": "AbstractClassExtendsConcreteClass",
-          "displayName": "Abstract class extends concrete class",
-          "enabled": false,
-          "description": "Reports `abstract` classes that extend concrete classes."
-        },
-        {
-          "shortName": "AbstractMethodOverridesAbstractMethod",
-          "displayName": "Abstract method overrides abstract method",
-          "enabled": false,
-          "description": "Reports `abstract` methods that override `abstract` methods.\n\nSuch methods don't make sense because any concrete child class will have to implement the abstract method anyway.\n\n\nMethods whose return types, exception declarations, annotations, or modifiers differ from the overridden method are not reported by this inspection.\n\n\nConfigure the inspection:\n\n* Use the **Ignore methods with different Javadoc than their super methods** option to ignore any abstract methods whose JavaDoc comment differs from their super method."
-        },
-        {
-          "shortName": "AbstractMethodWithMissingImplementations",
-          "displayName": "Abstract method with missing implementations",
-          "enabled": false,
-          "description": "Reports `abstract` methods that are not implemented in every concrete subclass.\n\n\nThis results in a compile-time error on the subclasses;\nthe inspection reports the problem at the point of the abstract method, allowing faster detection of the problem."
-        },
-        {
-          "shortName": "AbstractClassWithoutAbstractMethods",
-          "displayName": "Abstract class without abstract methods",
-          "enabled": false,
-          "description": "Reports `abstract` classes that have no `abstract` methods."
-        },
-        {
-          "shortName": "AbstractClassNeverImplemented",
-          "displayName": "Abstract class which has no concrete subclass",
-          "enabled": false,
-          "description": "Reports `abstract` classes that have no concrete subclasses."
-        },
-        {
-          "shortName": "StaticInheritance",
-          "displayName": "Static inheritance",
-          "enabled": false,
-          "description": "Reports interfaces that are implemented only to provide access to constants. This kind of inheritance is often confusing and may hide important dependency information."
-        }
-      ]
-    },
-    {
       "name": "General",
       "inspections": [
         {
@@ -4649,6 +4524,131 @@
           "displayName": "Qodana service message",
           "enabled": false,
           "description": "Reports the Qodana service messages such as suspending a particular inspection due to a large number of reported problems."
+        }
+      ]
+    },
+    {
+      "name": "Inheritance issues",
+      "inspections": [
+        {
+          "shortName": "ExtendsAnnotation",
+          "displayName": "Class extends annotation interface",
+          "enabled": false,
+          "description": "Reports classes declared as an implementation or extension of an annotation interface.\n\nWhile it is legal to extend an annotation interface, it is often done by accident,\nand the result can't be used as an annotation."
+        },
+        {
+          "shortName": "RedundantMethodOverride",
+          "displayName": "Method is identical to its super method",
+          "enabled": false,
+          "description": "Reports methods that are identical to their super methods. Such methods have the same signature as their super method and either have an identical body or only their body consists only of a call to the super method. These methods are redundant and can be removed.\n\n\nUse the checkbox below to run the inspection for the methods that override library methods.\nChecking library methods may slow down the inspection."
+        },
+        {
+          "shortName": "ProblematicVarargsMethodOverride",
+          "displayName": "Non-varargs method overrides varargs method",
+          "enabled": false,
+          "description": "Reports methods that override a variable arity (a.k.a. varargs) method but replace the variable arity parameter with an array parameter. Though this code is valid, it may be confusing and should be avoided."
+        },
+        {
+          "shortName": "InterfaceNeverImplemented",
+          "displayName": "Interface which has no concrete subclass",
+          "enabled": false,
+          "description": "Reports interfaces that have no concrete subclasses.\n\nConfigure the inspection:\n\n* Use the list below to add annotations. Interfaces declared with one of these annotations will be ignored by the inspection.\n* Use the checkbox below to ignore interfaces that only declare constant fields. Such interfaces may still be usable even without implementations."
+        },
+        {
+          "shortName": "AbstractMethodOverridesConcreteMethod",
+          "displayName": "Abstract method overrides concrete method",
+          "enabled": false,
+          "description": "Reports `abstract` methods that override concrete super methods.\n\nMethods overridden from `java.lang.Object` are not reported by this inspection."
+        },
+        {
+          "shortName": "MissingOverrideAnnotation",
+          "displayName": "Missing '@Override' annotation",
+          "enabled": false,
+          "description": "Reports methods overriding superclass methods without the `@java.lang.Override` annotation.\n\n\nAnnotating methods improves code readability since it shows the intent. In addition, the compiler emits an error when a signature\nof the overridden method doesn't match the superclass method.\n\nConfigure the inspection:\n\n* Use the **Ignore 'equals()', 'hashCode()' and 'toString()'** option to ignore these `java.lang.Object` methods: `equals()`, `hashCode()`, and `toString()`. The risk that these methods will disappear and your code won't be compiling anymore due to the `@Override` annotation is relatively small.\n* Use the **Ignore methods in anonymous classes** option to ignore methods in anonymous classes.\n\nThis inspection is only applicable if the language level of the project or module is 5 or higher."
+        },
+        {
+          "shortName": "ExtendsConcreteCollection",
+          "displayName": "Class explicitly extends a 'Collection' class",
+          "enabled": false,
+          "description": "Reports classes that extend concrete subclasses of the `java.util.Collection` or `java.util.Map` classes.\n\n\nSubclassing concrete collection types is a common yet poor practice. It is considerably more brittle than delegating collection calls."
+        },
+        {
+          "shortName": "TypeParameterExtendsFinalClass",
+          "displayName": "Type parameter extends final class",
+          "enabled": false,
+          "description": "Reports type parameters declared to extend a `final` class.\n\nSuggests replacing the type parameter with the type of the specified`final` class since\n`final` classes cannot be extended.\n\n**Example:**\n\n\n      void foo() {\n        List<? extends Integer> list; // Warning: the Integer class is a final class\n      }\n\nAfter the quick-fix is applied:\n\n\n      void foo() {\n        List<Integer> list;\n      }\n"
+        },
+        {
+          "shortName": "RefusedBequest",
+          "displayName": "Method does not call super method",
+          "enabled": false,
+          "description": "Reports methods that override a particular method without calling `super`.\n\nThis is also known as a *refused bequest*. Such methods\nmay represent a failure of abstraction and cause hard-to-trace bugs.\n\nThe inspection doesn't report default methods and methods overridden\nfrom `java.lang.Object`, except for `clone()`.\nThe `clone()` method is expected to call its `super`, which will automatically return an object of the correct type.\n\n**Examples:**\n\n*\n\n\n        class A {\n          @Override\n          public Object clone() { // reported, because it does not call 'super.clone()'\n            return new A();\n          }\n        }\n        \n*\n\n\n        interface I {\n          default void foo() {}\n        }\n\n        class A implements I {\n          // warning on method when 'Ignore 'default' super methods' and 'Ignore annotated' options are disabled\n          @Override\n          public void foo(){}\n        }\n          \nConfigure the inspection:\n\n* Use the **Only report when super method is annotated by** option to ignore `super` methods marked with the annotations from the provided list. You can manually add annotations to the list.\n* Use the **Ignore empty super methods** option to ignore `super` methods that are either empty or only throw an exception.\n* Use the **Ignore 'default' super methods** option to ignore `super` methods with the `default` keyword."
+        },
+        {
+          "shortName": "ExtendsUtilityClass",
+          "displayName": "Class extends utility class",
+          "enabled": false,
+          "description": "Reports classes that extend a utility class.\n\n\nA utility class is a non-empty class in which all fields and methods are static.\nExtending a utility class also allows for inadvertent object instantiation of the\nutility class, because the constructor cannot be made private in order to allow extension.\n\n\nConfigure the inspection:\n\n* Use the **Ignore if overriding class is a utility class** option to ignore any classes that override a utility class but are also utility classes themselves."
+        },
+        {
+          "shortName": "ImplicitSubclassInspection",
+          "displayName": "Final declaration can't be overridden at runtime",
+          "enabled": false,
+          "description": "Reports cases when your code prevents a class from being subclassed by some framework (for example, Spring or Hibernate) at runtime.\n\nTypical examples of necessary but impossible subclassing:\n\n* `final` classes marked with framework-specific annotations (for example, Spring `@Configuration`)\n* `final`, `static` or `private` methods marked with framework-specific annotations (for example, Spring `@Transactional`)\n* methods marked with framework-specific annotations inside `final` classes\n\nThe list of reported cases depends on the frameworks used."
+        },
+        {
+          "shortName": "ParameterTypePreventsOverriding",
+          "displayName": "Parameter type prevents overriding",
+          "enabled": false,
+          "description": "Reports parameter types of a subclass method that have the same name as the parameter type of the corresponding super method but belong to a different package. In these cases, the subclass method cannot override the super method.\n\n**Example:**\n\n\n    public class A {\n     public void method(Object o) {}\n    }\n\n    public class B extends A {\n     public void method(Object o) {} // warning on parameter type\n     class Object {}\n    }\n\nAfter the quick-fix is applied:\n\n\n    public class A {\n     public void method(Object o) {}\n    }\n\n    public class B extends A {\n     public void method(java.lang.Object o) {} // new parameter type\n     class Object {}\n    }\n"
+        },
+        {
+          "shortName": "NonProtectedConstructorInAbstractClass",
+          "displayName": "Public constructor in abstract class",
+          "enabled": false,
+          "description": "Reports `public` constructors of `abstract` classes.\n\n\nConstructors of `abstract` classes can only be called from the constructors of\ntheir subclasses, declaring them `public` may be confusing.\n\nThe quick-fix makes such constructors protected.\n\n**Example:**\n\n\n      public abstract class Foo {\n        public Foo () { // warning: has 'public' modifier\n            /* ... */\n        }\n      }\n\nAfter the quick-fix is applied:\n\n\n      public abstract class Foo {\n        protected Foo () {\n            /* ... */\n        }\n      }\n\nConfigure the inspection:\n\nUse the option below to ignore non-public classes."
+        },
+        {
+          "shortName": "FrequentlyUsedInheritorInspection",
+          "displayName": "Class may extend a commonly used base class",
+          "enabled": false,
+          "description": "Reports classes or interfaces that can be replaced with an implementation or extension of a more specific commonly used class or interface.\n\nFor this inspection to work, a superclass needs to be in project source files and the project needs to use the IntelliJ IDEA build system.\n\n**Example:**\n\n\n      class MyInheritor implements A {} // B suggested on the A reference\n\n      interface A {}\n\n      abstract class B implements A {}\n\n      abstract class C1 extends B {}\n      abstract class C2 extends B {}\n      abstract class C3 extends B {}\n      abstract class C4 extends B {}\n      abstract class C5 extends B {}\n\nBy default, this inspection doesn't highlight issues in the editor but only provides a quick-fix.\n\nNew in 2017.2"
+        },
+        {
+          "shortName": "AbstractClassExtendsConcreteClass",
+          "displayName": "Abstract class extends concrete class",
+          "enabled": false,
+          "description": "Reports `abstract` classes that extend concrete classes."
+        },
+        {
+          "shortName": "AbstractMethodOverridesAbstractMethod",
+          "displayName": "Abstract method overrides abstract method",
+          "enabled": false,
+          "description": "Reports `abstract` methods that override `abstract` methods.\n\nSuch methods don't make sense because any concrete child class will have to implement the abstract method anyway.\n\n\nMethods whose return types, exception declarations, annotations, or modifiers differ from the overridden method are not reported by this inspection.\n\n\nConfigure the inspection:\n\n* Use the **Ignore methods with different Javadoc than their super methods** option to ignore any abstract methods whose JavaDoc comment differs from their super method."
+        },
+        {
+          "shortName": "AbstractMethodWithMissingImplementations",
+          "displayName": "Abstract method with missing implementations",
+          "enabled": false,
+          "description": "Reports `abstract` methods that are not implemented in every concrete subclass.\n\n\nThis results in a compile-time error on the subclasses;\nthe inspection reports the problem at the point of the abstract method, allowing faster detection of the problem."
+        },
+        {
+          "shortName": "AbstractClassWithoutAbstractMethods",
+          "displayName": "Abstract class without abstract methods",
+          "enabled": false,
+          "description": "Reports `abstract` classes that have no `abstract` methods."
+        },
+        {
+          "shortName": "AbstractClassNeverImplemented",
+          "displayName": "Abstract class which has no concrete subclass",
+          "enabled": false,
+          "description": "Reports `abstract` classes that have no concrete subclasses."
+        },
+        {
+          "shortName": "StaticInheritance",
+          "displayName": "Static inheritance",
+          "enabled": false,
+          "description": "Reports interfaces that are implemented only to provide access to constants. This kind of inheritance is often confusing and may hide important dependency information."
         }
       ]
     },
@@ -4823,16 +4823,16 @@
           "description": "Reports equality expressions which are negated by a prefix expression.\n\nSuch expressions can be simplified using the `!=` operator.\n\nExample:\n\n\n      !(i == 1)\n\nAfter the quick-fix is applied:\n\n\n      i != 1\n"
         },
         {
-          "shortName": "DoubleNegation",
-          "displayName": "Double negation",
-          "enabled": false,
-          "description": "Reports double negations that can be simplified.\n\nExample:\n\n\n      if (!!functionCall()) {}\n\nAfter the quick-fix is applied:\n\n\n      if (functionCall()) {}\n\nExample:\n\n\n      if (!(a != b)) {}\n\nAfter the quick-fix is applied:\n\n\n      if (a == b) {}\n"
-        },
-        {
           "shortName": "AssertionCanBeIf",
           "displayName": "Assertion can be replaced with 'if' statement",
           "enabled": false,
           "description": "Reports `assert` statements and suggests replacing them with `if` statements that throw `java.lang.AssertionError`.\n\nExample:\n\n\n      assert param != null;\n\nAfter the quick-fix is applied:\n\n\n      if (param == null) throw new AssertionError();\n"
+        },
+        {
+          "shortName": "DoubleNegation",
+          "displayName": "Double negation",
+          "enabled": false,
+          "description": "Reports double negations that can be simplified.\n\nExample:\n\n\n      if (!!functionCall()) {}\n\nAfter the quick-fix is applied:\n\n\n      if (functionCall()) {}\n\nExample:\n\n\n      if (!(a != b)) {}\n\nAfter the quick-fix is applied:\n\n\n      if (a == b) {}\n"
         },
         {
           "shortName": "BreakStatement",
@@ -5452,71 +5452,6 @@
       ]
     },
     {
-      "name": "Properties files",
-      "inspections": [
-        {
-          "shortName": "UnusedMessageFormatParameter",
-          "displayName": "Missing message format parameter",
-          "enabled": false,
-          "description": "Reports properties values that look like `java.text.MessageFormat` format strings but do not use some the parameters of the `{xx}` kind.\n\nExample:\n\n\n    # parameter {0} is not used\n    error.message=Something happened in line {1}\n      \n"
-        },
-        {
-          "shortName": "InconsistentResourceBundle",
-          "displayName": "Inconsistent resource bundle",
-          "enabled": false,
-          "description": "Reports problems in the properties files contained in the resource bundle.\n\n* **Report missing translation**\n\noption controls search for an untranslated properties.   \nIt reports properties contained in parent properties file that are missing in inherited (unless it's a language dialect).   \nE.g. having this resource bundle:   \n**messages.properties** : **abc=xxx**   \n**messages_fr.properties** : empty   \nProperty **abc** will be reported as untranslated.\n\n* **Report inconsistent properties**\n\noption controls invalid resource bundle structure inspection.   \nIt reports properties contained in inherited properties file that are missing in parent (or in sibling if there is no parent).   \nE.g. having this resource bundle:   \n**messages.properties** : empty   \n**messages_fr.properties** : **abc=xxx**   \nProperty **abc** translation here is not available for any language except French, and, thus, will be reported as missing in the (default) properties file **messages.properties** .\n\n* **Report properties overridden with the same value**\n\noption checks for properties which are copy-pasted into several properties files verbatim.   \nE.g. in this resource bundle:   \n**messages.properties** : **abc=xxx**   \n**messages_fr.properties** : **abc=xxx**   \nProperty **abc** will be reported as unnecessarily inherited in the file **messages_fr.properties** .   \n\n* **Report properties overridden with different placeholders**\n\noption checks for properties which are overridden for placeholder consistency.   \nE.g. in this resource bundle:   \n**messages.properties** :   \n**qwe={0}xxx{1}**   \n**abc={0}yyy{1}**   \n**messages_fr.properties** :   \n**qwe={0}xxx{0}xxx{1}**   \n**abc={0}yyy**   \nProperty **abc** will be reported as property contains message format placeholders with value not corresponding to **messages.properties** .   \n\n* **Report properties overridden with different values endings**\n\noption checks for properties which are overridden for ending consistency.   \nE.g. in this resource bundle:   \n**messages.properties** :   \n**abc=xxxzzz**   \n**messages_fr.properties** :   \n**abc=xxx;**   \nProperty **abc** will be reported as property contains special signs ( **'!'** , **'?'** , **'.'** , **':'** or **';'** ) at the end of value but value in **messages.properties** doesn't.   "
-        },
-        {
-          "shortName": "SuspiciousLocalesLanguages",
-          "displayName": "Suspicious resource bundle locale languages",
-          "enabled": false,
-          "description": "Reports locales with language codes that are not supported by Java."
-        },
-        {
-          "shortName": "UseEllipsisInPropertyInspection",
-          "displayName": "Three dot characters instead of the ellipsis",
-          "enabled": false,
-          "description": "Reports three \"dot\" characters which are used instead of the ellipsis character for UTF-8 properties files."
-        },
-        {
-          "shortName": "AlphaUnsortedPropertiesFile",
-          "displayName": "Properties file or resource bundle is alphabetically unsorted",
-          "enabled": false,
-          "description": "Reports alphabetically unsorted resource bundles or .properties files."
-        },
-        {
-          "shortName": "TrailingSpacesInProperty",
-          "displayName": "Trailing spaces in property",
-          "enabled": false,
-          "description": "Reports all properties whose keys or values end with a whitespace.   "
-        },
-        {
-          "shortName": "UnusedProperty",
-          "displayName": "Unused property",
-          "enabled": false,
-          "description": "Reports all properties that are not referenced from the outside of the .properties file."
-        },
-        {
-          "shortName": "WrongPropertyKeyValueDelimiter",
-          "displayName": "Property key/value delimiter doesn't match code style settings",
-          "enabled": false,
-          "description": "Reports properties in which key or value delimiters do not match code style settings."
-        },
-        {
-          "shortName": "DuplicatePropertyInspection",
-          "displayName": "Duplicate property",
-          "enabled": false,
-          "description": "Reports duplicate property keys with different values, duplicate keys, or duplicate property values.\n\nExample:\n\n\n    property1=value;\n    property2=value;\n\nThe **Options** list allows selecting the area in which the inspection should search for duplicates."
-        },
-        {
-          "shortName": "UnresolvedPropertyKey",
-          "displayName": "Invalid property key",
-          "enabled": false,
-          "description": "Reports invalid arguments that are passed to methods with parameters annotated as `@PropertyKey`.\n\nThese arguments should be valid property keys in corresponding properties files.\nAlso, the inspection verifies that the `resourceBundle`\nargument of the `@PropertyKey` annotation is an existing resource bundle.\n\n\nUse the quick-fix to create a new property or to select an existing one.\n\nExample:\n\n\n      @PropertyKey(resourceBundle = \"myBundle\") String value = \"invalid.key\";\n"
-        }
-      ]
-    },
-    {
       "name": "EditorConfig",
       "inspections": [
         {
@@ -5680,6 +5615,71 @@
           "displayName": "Unused declaration",
           "enabled": false,
           "description": "Reports unused declarations. Such declarations can be removed."
+        }
+      ]
+    },
+    {
+      "name": "Properties files",
+      "inspections": [
+        {
+          "shortName": "UnusedMessageFormatParameter",
+          "displayName": "Missing message format parameter",
+          "enabled": false,
+          "description": "Reports properties values that look like `java.text.MessageFormat` format strings but do not use some the parameters of the `{xx}` kind.\n\nExample:\n\n\n    # parameter {0} is not used\n    error.message=Something happened in line {1}\n      \n"
+        },
+        {
+          "shortName": "InconsistentResourceBundle",
+          "displayName": "Inconsistent resource bundle",
+          "enabled": false,
+          "description": "Reports problems in the properties files contained in the resource bundle.\n\n* **Report missing translation**\n\noption controls search for an untranslated properties.   \nIt reports properties contained in parent properties file that are missing in inherited (unless it's a language dialect).   \nE.g. having this resource bundle:   \n**messages.properties** : **abc=xxx**   \n**messages_fr.properties** : empty   \nProperty **abc** will be reported as untranslated.\n\n* **Report inconsistent properties**\n\noption controls invalid resource bundle structure inspection.   \nIt reports properties contained in inherited properties file that are missing in parent (or in sibling if there is no parent).   \nE.g. having this resource bundle:   \n**messages.properties** : empty   \n**messages_fr.properties** : **abc=xxx**   \nProperty **abc** translation here is not available for any language except French, and, thus, will be reported as missing in the (default) properties file **messages.properties** .\n\n* **Report properties overridden with the same value**\n\noption checks for properties which are copy-pasted into several properties files verbatim.   \nE.g. in this resource bundle:   \n**messages.properties** : **abc=xxx**   \n**messages_fr.properties** : **abc=xxx**   \nProperty **abc** will be reported as unnecessarily inherited in the file **messages_fr.properties** .   \n\n* **Report properties overridden with different placeholders**\n\noption checks for properties which are overridden for placeholder consistency.   \nE.g. in this resource bundle:   \n**messages.properties** :   \n**qwe={0}xxx{1}**   \n**abc={0}yyy{1}**   \n**messages_fr.properties** :   \n**qwe={0}xxx{0}xxx{1}**   \n**abc={0}yyy**   \nProperty **abc** will be reported as property contains message format placeholders with value not corresponding to **messages.properties** .   \n\n* **Report properties overridden with different values endings**\n\noption checks for properties which are overridden for ending consistency.   \nE.g. in this resource bundle:   \n**messages.properties** :   \n**abc=xxxzzz**   \n**messages_fr.properties** :   \n**abc=xxx;**   \nProperty **abc** will be reported as property contains special signs ( **'!'** , **'?'** , **'.'** , **':'** or **';'** ) at the end of value but value in **messages.properties** doesn't.   "
+        },
+        {
+          "shortName": "SuspiciousLocalesLanguages",
+          "displayName": "Suspicious resource bundle locale languages",
+          "enabled": false,
+          "description": "Reports locales with language codes that are not supported by Java."
+        },
+        {
+          "shortName": "UseEllipsisInPropertyInspection",
+          "displayName": "Three dot characters instead of the ellipsis",
+          "enabled": false,
+          "description": "Reports three \"dot\" characters which are used instead of the ellipsis character for UTF-8 properties files."
+        },
+        {
+          "shortName": "AlphaUnsortedPropertiesFile",
+          "displayName": "Properties file or resource bundle is alphabetically unsorted",
+          "enabled": false,
+          "description": "Reports alphabetically unsorted resource bundles or .properties files."
+        },
+        {
+          "shortName": "TrailingSpacesInProperty",
+          "displayName": "Trailing spaces in property",
+          "enabled": false,
+          "description": "Reports all properties whose keys or values end with a whitespace.   "
+        },
+        {
+          "shortName": "UnusedProperty",
+          "displayName": "Unused property",
+          "enabled": false,
+          "description": "Reports all properties that are not referenced from the outside of the .properties file."
+        },
+        {
+          "shortName": "WrongPropertyKeyValueDelimiter",
+          "displayName": "Property key/value delimiter doesn't match code style settings",
+          "enabled": false,
+          "description": "Reports properties in which key or value delimiters do not match code style settings."
+        },
+        {
+          "shortName": "DuplicatePropertyInspection",
+          "displayName": "Duplicate property",
+          "enabled": false,
+          "description": "Reports duplicate property keys with different values, duplicate keys, or duplicate property values.\n\nExample:\n\n\n    property1=value;\n    property2=value;\n\nThe **Options** list allows selecting the area in which the inspection should search for duplicates."
+        },
+        {
+          "shortName": "UnresolvedPropertyKey",
+          "displayName": "Invalid property key",
+          "enabled": false,
+          "description": "Reports invalid arguments that are passed to methods with parameters annotated as `@PropertyKey`.\n\nThese arguments should be valid property keys in corresponding properties files.\nAlso, the inspection verifies that the `resourceBundle`\nargument of the `@PropertyKey` annotation is an existing resource bundle.\n\n\nUse the quick-fix to create a new property or to select an existing one.\n\nExample:\n\n\n      @PropertyKey(resourceBundle = \"myBundle\") String value = \"invalid.key\";\n"
         }
       ]
     },
@@ -8185,83 +8185,6 @@
       ]
     },
     {
-      "name": "Style",
-      "inspections": [
-        {
-          "shortName": "JavaStylePropertiesInvocation",
-          "displayName": "Java-style property access",
-          "enabled": false,
-          "description": "Reports properties accessed via method calls.\n\n**Example:**\n\n\n      class Foo {\n          int foo\n      }\n\n      def bar = new Foo()\n      print(bar.getFoo())\n\nAfter the quick-fix is applied:\n\n\n      class Foo {\n          int foo\n      }\n\n      def bar = new Foo()\n      print(bar.foo)\n"
-        },
-        {
-          "shortName": "GrUnnecessarySemicolon",
-          "displayName": "Unnecessary semicolon",
-          "enabled": false,
-          "description": "Reports unnecessary semicolons.\n\n**Example:**\n\n\n      print 2; print 3 // semicolon is required\n      print 2; // semicolon is unnecessary\n"
-        },
-        {
-          "shortName": "ChangeToMethod",
-          "displayName": "Operator invocation can be replaced with method call",
-          "enabled": false,
-          "description": "Reports operator invocations that can be replaced with method calls.\n\n**Example:**\n\n\n      a + b\n\nAfter the quick-fix is applied:\n\n\n      a.plus(b)\n"
-        },
-        {
-          "shortName": "ChangeToOperator",
-          "displayName": "Method call can be replaced with operator invocation",
-          "enabled": false,
-          "description": "Reports method calls that can be replaced with operator invocations.\n\n**Example:**\n\n\n      a.plus(b)\n\nAfter the quick-fix is applied:\n\n\n      a + b\n"
-        },
-        {
-          "shortName": "GroovyConditional",
-          "displayName": "Ternary expression",
-          "enabled": false,
-          "description": "Reports ternary expressions.\n\nSome coding standards prohibit the use of the condition operator in favor of `if` statements."
-        },
-        {
-          "shortName": "GrUnnecessaryAlias",
-          "displayName": "Unnecessary import alias",
-          "enabled": false,
-          "description": "Reports unnecessary import aliases.\n\n**Example:**\n\n\n      import com.foo.Bar as Bar\n\nAfter the quick-fix is applied:\n\n\n      import com.foo.Bar\n"
-        },
-        {
-          "shortName": "GrUnnecessaryNonSealedModifier",
-          "displayName": "Unnecessary 'non-sealed' modifier",
-          "enabled": false,
-          "description": "Reports unnecessary `non-sealed` modifiers which used on methods, fields, or variables.\n\nThis modifier has effect only on classes, interfaces and traits.\n\n**Example:**\n\n\n      non-sealed boolean foo() {} // modifier is unnecessary\n      non-sealed Object bar // modifier is unnecessary\n\n      // modifier is required and therefore not highlighted\n      non-sealed class A {}\n"
-        },
-        {
-          "shortName": "GrUnnecessaryDefModifier",
-          "displayName": "Unnecessary 'def'",
-          "enabled": false,
-          "description": "Reports unnecessary `def` modifiers when used with explicit type declaration.\n\n**Example:**\n\n\n      def boolean foo() {} // modifier is unnecessary\n      def Object bar // modifier is unnecessary\n\n      // modifier is required and therefore not highlighted\n      def (int a, String b) = []\n"
-        },
-        {
-          "shortName": "GrUnnecessaryFinalModifier",
-          "displayName": "Unnecessary 'final'",
-          "enabled": false,
-          "description": "Reports unnecessary `final` modifiers when used with the record definition.\n\n**Example:**\n\n\n      final record R(int a) {} // modifier is unnecessary\n"
-        },
-        {
-          "shortName": "GrUnnecessaryPublicModifier",
-          "displayName": "Unnecessary 'public'",
-          "enabled": false,
-          "description": "Reports unnecessary `public` modifiers as Groovy classes and methods are `public` by default.\n\n**Example:**\n\n\n      public class Foo{\n          public void bar(){\n          }\n      }\n\nAfter the quick-fix is applied:\n\n\n      class Foo{\n          void bar(){\n          }\n      }\n"
-        },
-        {
-          "shortName": "GrStringStyleViolation",
-          "displayName": "String style violation",
-          "enabled": false,
-          "description": "Reports strings with quotation that doesn't match code style.\n\n**Example:**\n\n\n      def hw = \"Hello, world!\"\n\nAfter the quick-fix is applied:\n\n\n      def hw = 'Hello, world!'\n\nUse the fields provided below to specify code style for different kinds of strings."
-        },
-        {
-          "shortName": "GrUnnecessarySealedModifier",
-          "displayName": "Unnecessary 'sealed' modifier",
-          "enabled": false,
-          "description": "Reports unnecessary `sealed` modifiers which used on methods, fields, or variables.\n\nThis modifier has effect only on classes, interfaces and traits.\n\n**Example:**\n\n\n      sealed boolean foo() {} // modifier is unnecessary\n      sealed Object bar // modifier is unnecessary\n\n      // modifier is required and therefore not highlighted\n      sealed class A {}\n"
-        }
-      ]
-    },
-    {
       "name": "RegExp",
       "inspections": [
         {
@@ -8335,6 +8258,83 @@
           "displayName": "Duplicate branch in alternation",
           "enabled": false,
           "description": "Reports duplicate branches in a RegExp alternation. Duplicate branches slow down matching and obscure the intent of the expression.\n\n**Example:**\n\n\n      (alpha|bravo|charlie|alpha)\n\nAfter the quick-fix is applied:\n\n\n      (alpha|bravo|charlie)\n\nNew in 2017.1"
+        }
+      ]
+    },
+    {
+      "name": "Style",
+      "inspections": [
+        {
+          "shortName": "JavaStylePropertiesInvocation",
+          "displayName": "Java-style property access",
+          "enabled": false,
+          "description": "Reports properties accessed via method calls.\n\n**Example:**\n\n\n      class Foo {\n          int foo\n      }\n\n      def bar = new Foo()\n      print(bar.getFoo())\n\nAfter the quick-fix is applied:\n\n\n      class Foo {\n          int foo\n      }\n\n      def bar = new Foo()\n      print(bar.foo)\n"
+        },
+        {
+          "shortName": "GrUnnecessarySemicolon",
+          "displayName": "Unnecessary semicolon",
+          "enabled": false,
+          "description": "Reports unnecessary semicolons.\n\n**Example:**\n\n\n      print 2; print 3 // semicolon is required\n      print 2; // semicolon is unnecessary\n"
+        },
+        {
+          "shortName": "ChangeToMethod",
+          "displayName": "Operator invocation can be replaced with method call",
+          "enabled": false,
+          "description": "Reports operator invocations that can be replaced with method calls.\n\n**Example:**\n\n\n      a + b\n\nAfter the quick-fix is applied:\n\n\n      a.plus(b)\n"
+        },
+        {
+          "shortName": "ChangeToOperator",
+          "displayName": "Method call can be replaced with operator invocation",
+          "enabled": false,
+          "description": "Reports method calls that can be replaced with operator invocations.\n\n**Example:**\n\n\n      a.plus(b)\n\nAfter the quick-fix is applied:\n\n\n      a + b\n"
+        },
+        {
+          "shortName": "GroovyConditional",
+          "displayName": "Ternary expression",
+          "enabled": false,
+          "description": "Reports ternary expressions.\n\nSome coding standards prohibit the use of the condition operator in favor of `if` statements."
+        },
+        {
+          "shortName": "GrUnnecessaryAlias",
+          "displayName": "Unnecessary import alias",
+          "enabled": false,
+          "description": "Reports unnecessary import aliases.\n\n**Example:**\n\n\n      import com.foo.Bar as Bar\n\nAfter the quick-fix is applied:\n\n\n      import com.foo.Bar\n"
+        },
+        {
+          "shortName": "GrUnnecessaryNonSealedModifier",
+          "displayName": "Unnecessary 'non-sealed' modifier",
+          "enabled": false,
+          "description": "Reports unnecessary `non-sealed` modifiers which used on methods, fields, or variables.\n\nThis modifier has effect only on classes, interfaces and traits.\n\n**Example:**\n\n\n      non-sealed boolean foo() {} // modifier is unnecessary\n      non-sealed Object bar // modifier is unnecessary\n\n      // modifier is required and therefore not highlighted\n      non-sealed class A {}\n"
+        },
+        {
+          "shortName": "GrUnnecessaryDefModifier",
+          "displayName": "Unnecessary 'def'",
+          "enabled": false,
+          "description": "Reports unnecessary `def` modifiers when used with explicit type declaration.\n\n**Example:**\n\n\n      def boolean foo() {} // modifier is unnecessary\n      def Object bar // modifier is unnecessary\n\n      // modifier is required and therefore not highlighted\n      def (int a, String b) = []\n"
+        },
+        {
+          "shortName": "GrUnnecessaryFinalModifier",
+          "displayName": "Unnecessary 'final'",
+          "enabled": false,
+          "description": "Reports unnecessary `final` modifiers when used with the record definition.\n\n**Example:**\n\n\n      final record R(int a) {} // modifier is unnecessary\n"
+        },
+        {
+          "shortName": "GrUnnecessaryPublicModifier",
+          "displayName": "Unnecessary 'public'",
+          "enabled": false,
+          "description": "Reports unnecessary `public` modifiers as Groovy classes and methods are `public` by default.\n\n**Example:**\n\n\n      public class Foo{\n          public void bar(){\n          }\n      }\n\nAfter the quick-fix is applied:\n\n\n      class Foo{\n          void bar(){\n          }\n      }\n"
+        },
+        {
+          "shortName": "GrStringStyleViolation",
+          "displayName": "String style violation",
+          "enabled": false,
+          "description": "Reports strings with quotation that doesn't match code style.\n\n**Example:**\n\n\n      def hw = \"Hello, world!\"\n\nAfter the quick-fix is applied:\n\n\n      def hw = 'Hello, world!'\n\nUse the fields provided below to specify code style for different kinds of strings."
+        },
+        {
+          "shortName": "GrUnnecessarySealedModifier",
+          "displayName": "Unnecessary 'sealed' modifier",
+          "enabled": false,
+          "description": "Reports unnecessary `sealed` modifiers which used on methods, fields, or variables.\n\nThis modifier has effect only on classes, interfaces and traits.\n\n**Example:**\n\n\n      sealed boolean foo() {} // modifier is unnecessary\n      sealed Object bar // modifier is unnecessary\n\n      // modifier is required and therefore not highlighted\n      sealed class A {}\n"
         }
       ]
     },
@@ -8823,16 +8823,16 @@
           "description": "Reports methods whose number of statements exceeds the specified maximum.\n\nMethods with too many statements may be confusing and are a good sign that refactoring is necessary.\n\nThe following statements are not counted:\n\n* empty statements (semicolons)\n* block statements\n* `for` loop initialization statements, that is, `int i = ...` within a `for(int i = ...;...)` statement\n* `for` loop update statements, that is, `i += 2` within a `for(int i = ...;...; i += 2)` statement\n\nUse the **Maximum statements per method** field to specify the maximum allowed number of statements in a method."
         },
         {
-          "shortName": "ParametersPerMethod",
-          "displayName": "Method with too many parameters",
-          "enabled": false,
-          "description": "Reports methods whose number of parameters exceeds the specified maximum. Methods with too many parameters can be a good sign that a refactoring is necessary.\n\nMethods that have super methods are not reported.\n\nUse the **Parameter limit** field to specify the maximum allowed number of parameters for a method."
-        },
-        {
           "shortName": "OverlyLongLambda",
           "displayName": "Overly long lambda expression",
           "enabled": false,
           "description": "Reports lambda expressions whose number of statements exceeds the specified maximum.\n\nLambda expressions that are too long may be confusing, and it is often better to extract the statements into a separate method.\n\n\nThe following statements are not counted:\n\n* empty statements (semicolons)\n* block statements\n* `for` loop initialization statements, that is, `int i = ...` within a `for(int i = ...;...)` statement\n* `for` loop update statements, that is, `i += 2` within a `for(int i = ...;...; i += 2)` statement\n\nUse the **Non-comment source statements limit** field to specify the maximum allowed number of statements in a lambda expression."
+        },
+        {
+          "shortName": "ParametersPerMethod",
+          "displayName": "Method with too many parameters",
+          "enabled": false,
+          "description": "Reports methods whose number of parameters exceeds the specified maximum. Methods with too many parameters can be a good sign that a refactoring is necessary.\n\nMethods that have super methods are not reported.\n\nUse the **Parameter limit** field to specify the maximum allowed number of parameters for a method."
         },
         {
           "shortName": "MethodCoupling",

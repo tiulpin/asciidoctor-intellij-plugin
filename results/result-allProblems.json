@@ -23,7 +23,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "f66feb6f290ed650209404d5125d8c411ed174ee50216ed3afb7b2b7d3c00c87"
 },{
@@ -51,7 +52,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "1c3056d131f259ecd3fb89b7fd20624174cc81955e7942ad3468957996ec648f"
 },{
@@ -79,7 +81,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "07f689980e598754b43e67004fd386e80c8b30b02101fe2f299001b2f15f6e0c"
 },{
@@ -107,7 +110,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "4cf3658cfcfce3ca5a4dae0f32f86f3d2484abf5fbb9844381b8acc25711ac31"
 },{
@@ -135,7 +139,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "09ddf4ab4b8c8d882ec96e236fa29d8b395fcea279b8f8b2bd198f62b7578d83"
 },{
@@ -163,7 +168,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "678d23080649e03b51423222fee117aaae6571bf8365d00d5dc0dbc12fde93f1"
 },{
@@ -191,7 +197,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "76676b115fe547f535560f524367ee652ebf3ce8ec0840d2fe3f50baccd1d427"
 },{
@@ -219,7 +226,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "1dc0957091a090a83f6c0ff8a0bd40a8713de8b747679dc596a8be89398afd91"
 },{
@@ -247,7 +255,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "caaa602c5405219f64ba72a3eee95e0b94acf14626b3b1d8c393cc047b99613c"
 },{
@@ -275,7 +284,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "7113d27d9c0bb7a59dd83f5e939b5c5f7518ac77a54eb41f81bf8566c5811149"
 },{
@@ -303,7 +313,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "af872c9c818118fccf7e65606c00727acfe2256fd5f72469b38f6d0cfb9c0011"
 },{
@@ -331,7 +342,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "ab2cb222af5697cf5bee74b9020dd0f02f5279119a45e576e632950b23b83606"
 },{
@@ -359,7 +371,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "96737915306acef58932c2620a252e7bd713fd2b984eae4fac004cf605ba0e05"
 },{
@@ -387,7 +400,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "deb9f710e3dcf451469dd42dd5bd6eb333c99aa59f8266d3e173d92748d058a2"
 },{
@@ -415,7 +429,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "92b8c8f800352c661bffbf5926183b3bf495d7546f799a501a40c7d231223d7d"
 },{
@@ -443,7 +458,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "698a30f2a0044f0cf691f659ef3fab06ffc5ec641404ca05a2c087e7a674aa8a"
 },{
@@ -471,7 +487,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "9eb6c3514caa88ee73ade149ebdf6cddf2b5e00dfd84603bd508e94a773d9502"
 },{
@@ -499,7 +516,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "af53aedee1adc31c13cac00e940bc038704f144b428158f06f86079d7a5fee47"
 },{
@@ -527,7 +545,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "41d098dfd6caa287213a3e6f22c9a1d4c2dfa97f64d104047c07806681be7a0e"
 },{
@@ -555,7 +574,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "8224b0f3030f6150c48fd27eca01b3d490ff0915ef7de221fe64a8f8ff4b37f1"
 },{
@@ -583,7 +603,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "de90706f705b0b39a2ace013707b9e7b16a899538f4cd86115987c5d02f7c796"
 },{
@@ -611,7 +632,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "cba3ead4d3e6473cd2f383d6f50f3e0cd0bfef744ecbbcbb112d562bdae21732"
 },{
@@ -639,7 +661,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "66c1fed297835f67b69a823605bb436f55d490f0134b4a8a94d3d8c29330441a"
 },{
@@ -667,7 +690,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "ea52365073fc38d96b683c965389d2338f75c98526e602435f644b8cfbc943a5"
 },{
@@ -695,7 +719,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "c37b26116d7387046ff14c750888dbb9ce7444069a4a43581c76679f4c59c7cb"
 },{
@@ -723,7 +748,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "0307985477184739dc8bb40f04746f46eca48b6e4716e52b4c01ce15649e3d54"
 },{
@@ -751,7 +777,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "a0b31b9fa1b58865609fe97967a9da8ecf6d42ab4f275240be568bd064375a5e"
 },{
@@ -766,11 +793,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/validation-cicd.adoc",
       "language": "AsciiDoc",
-      "line": 91,
+      "line": 94,
       "offset": 3,
       "length": 6,
       "code": {
-        "startLine": 89,
+        "startLine": 92,
         "length": 6,
         "offset": 208,
         "surroundingCode": ". Add a workflow the GitHub repository by adding the following file (see https://github.com/asciidoctor/asciidoctor-intellij-plugin/blob/main/.github/workflows/build.yml[_docs.yml_^] in the GitHub repo):\n+\n..github/workflows/docs.yml\n[source,yaml]\n----"
@@ -779,9 +806,10 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
-  "hash": "2b2f25e3d2501f199e20c041f8168e364264a99d2e5343c1e804a221768a4102"
+  "hash": "f027b0074f515a4589eed0c1d8d079f21e067e9f5c1cb38901da7fada6e9e7f5"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -807,7 +835,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "35ec5df8657613971f88f544d235fbe3d3d709431e2035096ae3da647bc147ee"
 },{
@@ -835,7 +864,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "8b83fa1ce77f943c8a92ff7269d7358394e234fcc97464b52c85ea78097107a0"
 },{
@@ -863,7 +893,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "445655ceb4b2b7f3a001378cfb20f08c0a83040153e5fbdfd1d966e133ac5abf"
 },{
@@ -891,7 +922,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "5d225d16416e3982757ec66882b7a613d52770d195aa456933bd598da8dd6141"
 },{
@@ -919,7 +951,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "b4e3a933038a8f093e4d129d72c8516688653c40c434f95c96ec43a731141932"
 },{
@@ -947,7 +980,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "04c81595d40dd6e302093c456806af06cfc024e8bc1550fa42067b1c7e1b38d6"
 },{
@@ -975,7 +1009,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "ee64fa6ce3c09561ea085cfc626c372dae5c330d387e7ff1b66c185e59bfa209"
 },{
@@ -1003,7 +1038,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "96546cf00cfb2b7cd32b4ffe056e13593eed4f9656e08082097fad81ddf0f0f1"
 },{
@@ -1031,7 +1067,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "0472f84c144b4142c259fdc333cb0b0c65d7687081f62a02b7d70dab1767c34a"
 },{
@@ -1059,7 +1096,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "3613089bac6aafbf3e6eb53a47d48dff0438d837a5bc14e09ff78a7b0c2683ed"
 },{
@@ -1087,7 +1125,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "38f0e4a4232216e5d2afe0c5aba4992dd1522117f2242e213a36a9c19fab1f8c"
 },{
@@ -1115,7 +1154,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "4e29b55744291d74ad966ccf20c6ce082c0ba8059939505431cf51f119a667f1"
 },{
@@ -1143,7 +1183,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "1ec5de5424eeef19323a7957d4ca7f96977442b7a004387ac4109dc6b614589c"
 },{
@@ -1171,7 +1212,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "b4fa61ebd08fa8f4cc2c4ecdbdef53e60d6c113bda196001077fe70a455bc3ce"
 },{
@@ -1199,7 +1241,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "da0a76a26239e8b18dfeac5fc27e45a9dd465d4b0bb372d6fd9a63485fd14b8e"
 },{
@@ -1227,7 +1270,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "3ee8f26458732e58175c64a07dfff5225abaca296eedee9ba3941a0f14524965"
 },{
@@ -1255,7 +1299,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "a0f5fbf385053874f9a594bd8f529efca991311d814feff20566bd080ab26190"
 },{
@@ -1283,7 +1328,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "ca6d0f692eb07060533415b85fe43111305c5a197c1de4073c66f65745adb1fe"
 },{
@@ -1311,7 +1357,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "6fb2997c6b6181c4239b866f460e62845b76d85da479f605bb91caa6313f2490"
 },{
@@ -1339,7 +1386,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e778b8f6249369b49450454eef93f77b51e0f05da3fea3bc3a9b64451bd4f04d"
 },{
@@ -1367,7 +1415,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "48fc969b892ba3fbfb278827f14630547b9085be713d0636e5a5f7fd238f9ec5"
 },{
@@ -1395,7 +1444,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "fda53fa0b115746a9030f428d2cf9ce14642b08d175ec9e4291ddd0e7f6578b8"
 },{
@@ -1423,7 +1473,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "dda798667f24438171a7846c0e046ba0f7524042c23fc9718f2d18b7571409f8"
 },{
@@ -1451,7 +1502,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e12a797b4dfea67f9d43e376da07170ee5a5be399ddced7a089813bd8d0c0405"
 },{
@@ -1479,7 +1531,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "58817fda920c20652b6e4a15cc897b6b7313a4b13735975496257498884d3b33"
 },{
@@ -1507,7 +1560,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "6dce23979de5c8608d0e322770f97864314a005ea74bb1895ddbb208767f0822"
 },{
@@ -1535,7 +1589,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e18aae24fdc4436c437de03497bcc5ac3538fbc0370d19f6c1d3675450275b6a"
 },{
@@ -1563,7 +1618,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "298d569feadf3b2da6228cf16a3d402239a2d0fc4d91f813f4638dd0e91ccfc4"
 },{
@@ -1591,7 +1647,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "3dbd95db1239e65b6c935646cffe3cbc7ae3ed7799c663c716048d0ca8959996"
 },{
@@ -1619,7 +1676,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "7ef87d44b38311b7b2b641711976e974eff8b4e6d8bf13dc2f28852c1d814eaa"
 },{
@@ -1647,7 +1705,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "278f03fea91fafa2fe6914927f2c0c98c433b5de501668f5f5482ddc8ab58330"
 },{
@@ -1675,7 +1734,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "6bd20ed5e85b3a8e5b441e037d8401e44dd39e0e68f600168db19dc7035a635d"
 },{
@@ -1703,7 +1763,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e37fc1afe8e3cce0f528bd275f0f3484221eaf2c780edb57ba51aeac093780d8"
 },{
@@ -1731,7 +1792,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e30180a108e5cf5799ecaac8ecdb7a0bb78aeedffa897bdd2fa301a9e927b7ae"
 },{
@@ -1759,7 +1821,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "6d423da804735dd76df288ca865421933261604d536ace0f682880ba1b80bb3e"
 },{
@@ -1787,7 +1850,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e6f586f3f027925f2218f61d90d4730bbaa9277c965f9401212aa141c0c719a1"
 },{
@@ -1815,7 +1879,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "52acfc716c3e313b0309e3319d1181b4d9a21aef024f8cfdbc4127d36fabc990"
 },{
@@ -1843,7 +1908,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "847a3b9735d55e3714d259dd01f6ac372178baf646272be7027c568aeb7dd447"
 },{
@@ -1871,7 +1937,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "6f1935f8f87527202d902e6300a1f3884a2f185c97519a2463932101579c9c52"
 },{
@@ -1899,7 +1966,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "f8a440520c42ad3a898d5eb7388d1f8d086da4d5c90648b4fb2bd0254cc35849"
 },{
@@ -1927,7 +1995,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e841c2aae1e67e6bec93718645ecd3bea9ba87d09af39395c37eda77199fe535"
 },{
@@ -1955,7 +2024,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "3ac2d05f0b4e5d88393abcedbdde5dd7d13f97f134d24cf57411cf167f896a30"
 },{
@@ -1983,7 +2053,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "d09de319532483d63884d7064c35ae973944d931f3124a4e8435b37de99886aa"
 },{
@@ -2011,7 +2082,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "6f5faf42bead0f81948331bd5fb98d0b402cef5b4b59f84504f96c7ead3a4d74"
 },{
@@ -2039,7 +2111,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "e79ceb28623e96c86d495f9fabf5e923e52c528840cbc239c3898de1b49b1f49"
 },{
@@ -2067,7 +2140,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "0b6c1aa9f3011ac87c12cc3d35c5bb327da4aa96b574e80496fd6152f908c860"
 },{
@@ -2095,7 +2169,8 @@
   ],
   "attributes": {
     "module": "project",
-    "inspectionName": "GrazieInspection"
+    "inspectionName": "GrazieInspection",
+    "baselineState": "new"
   },
   "hash": "0fdcc0640622d73ff9fa0be2063266703900a1772cd6e0e862335adc9d0cea06"
 }]}
