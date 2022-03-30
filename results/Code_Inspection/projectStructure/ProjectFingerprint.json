@@ -2,7 +2,6 @@
   "languages": [
     "XML",
     "Plain text",
-    "AsciiDoc",
-    "JSON"
+    "AsciiDoc"
   ]
 }
