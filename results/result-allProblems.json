@@ -1,0 +1,2101 @@
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The genitive ('s) may be missing.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/errno-enoent.adoc",
+      "language": "AsciiDoc",
+      "line": 20,
+      "offset": 1,
+      "length": 13,
+      "code": {
+        "startLine": 18,
+        "length": 13,
+        "offset": 89,
+        "surroundingCode": "\nThis seems to happen mostly on Windows systems as they don't default to UTF-8 charsets.\nLinux systems usually default to UTF-8 and are not affected.\n\n== Cause: Folder names with non-US-ASCII characters"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "f66feb6f290ed650209404d5125d8c411ed174ee50216ed3afb7b2b7d3c00c87"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The singular proper name 'JavaFX' must be used with a third-person or a past tense verb.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/blurry-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 19,
+      "offset": 8,
+      "length": 7,
+      "code": {
+        "startLine": 17,
+        "length": 7,
+        "offset": 41,
+        "surroundingCode": "\n* Operating System Windows 10, +\nJavaFX preview +\na high resolution display with a fractional scaling (for example 125% or 175%), +\nIntelliJ running on OpenJDK 8 / JetBrains Runtime 8"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "1c3056d131f259ecd3fb89b7fd20624174cc81955e7942ad3468957996ec648f"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'for example' is a linking/introductory phrase that might require commas around it",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/blurry-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 20,
+      "offset": 54,
+      "length": 11,
+      "code": {
+        "startLine": 18,
+        "length": 11,
+        "offset": 103,
+        "surroundingCode": "* Operating System Windows 10, +\nJavaFX preview +\na high resolution display with a fractional scaling (for example 125% or 175%), +\nIntelliJ running on OpenJDK 8 / JetBrains Runtime 8\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "07f689980e598754b43e67004fd386e80c8b30b02101fe2f299001b2f15f6e0c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/blurry-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 25,
+      "offset": 31,
+      "length": 7,
+      "code": {
+        "startLine": 23,
+        "length": 7,
+        "offset": 34,
+        "surroundingCode": "or\n\n* Operating System Linux (for example Fedora 31 Wayland), +\nJavaFX preview +\na high resolution display with scaling-factor 200% or more, +"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "4cf3658cfcfce3ca5a4dae0f32f86f3d2484abf5fbb9844381b8acc25711ac31"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The singular proper name 'JavaFX' must be used with a third-person or a past tense verb.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/blurry-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 26,
+      "offset": 8,
+      "length": 7,
+      "code": {
+        "startLine": 24,
+        "length": 7,
+        "offset": 68,
+        "surroundingCode": "\n* Operating System Linux (for example Fedora 31 Wayland), +\nJavaFX preview +\na high resolution display with scaling-factor 200% or more, +\nIntelliJ running on OpenJDK or JetBrains Runtime (any version)"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "09ddf4ab4b8c8d882ec96e236fa29d8b395fcea279b8f8b2bd198f62b7578d83"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The genitive ('s) may be missing.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/javafx-initialization-stuck.adoc",
+      "language": "AsciiDoc",
+      "line": 1,
+      "offset": 3,
+      "length": 21,
+      "code": {
+        "startLine": 1,
+        "length": 21,
+        "offset": 2,
+        "surroundingCode": "= JavaFX initialization stuck\n:description: IDE stuck when initializing JavaFX on Linux/GTK3 desktop\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "678d23080649e03b51423222fee117aaae6571bf8365d00d5dc0dbc12fde93f1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/javafx-initialization-stuck.adoc",
+      "language": "AsciiDoc",
+      "line": 25,
+      "offset": 34,
+      "length": 6,
+      "code": {
+        "startLine": 23,
+        "length": 6,
+        "offset": 185,
+        "surroundingCode": "The JetBrains Runtime based on OpenJDK 8 (aka JBR8) doesn't include jre64/lib/amd64/libglassgtk3.so that is needed to run JavaFX in GTK3 environments.\n\nUpon the first initialization of JavaFX it will become stuck.\nNewer versions of the plugin identify this situation and instead of hanging up the IDE will present a warning message.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "76676b115fe547f535560f524367ee652ebf3ce8ec0840d2fe3f50baccd1d427"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/faq/diagrams-in-pdf-without-text.adoc",
+      "language": "AsciiDoc",
+      "line": 33,
+      "offset": 82,
+      "length": 3,
+      "code": {
+        "startLine": 31,
+        "length": 3,
+        "offset": 198,
+        "surroundingCode": "The tradeoff is usually a larger PDF and a rastered image.\nRastered images will not scale and print as good as SVGs.\nSome diagram types (like Mermaid) don't support PNG when used, for example, with the Kroki-integration.\n\nSee xref:features/preview/diagrams.adoc#kroki[Diagrams with Kroki] for more information."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "1dc0957091a090a83f6c0ff8a0bd40a8713de8b747679dc596a8be89398afd91"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'As the preview...' is a participial phrase that might require commas around it",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/jcef-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 16,
+      "offset": 1,
+      "length": 23,
+      "code": {
+        "startLine": 14,
+        "length": 23,
+        "offset": 125,
+        "surroundingCode": "\nThe JCEF preview provides better HTML preview and additional features like scroll-to-view and opening links in the browser.\nAs the preview is based on an up-to-date Google Chrome rendering engine, it offers in-par rendering compared to modern browsers.\nThis includes rendering of fonts and SVGs.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "caaa602c5405219f64ba72a3eee95e0b94acf14626b3b1d8c393cc047b99613c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use plural nouns after '8'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/javafx-preview.adoc",
+      "language": "AsciiDoc",
+      "line": 37,
+      "offset": 81,
+      "length": 7,
+      "code": {
+        "startLine": 35,
+        "length": 7,
+        "offset": 157,
+        "surroundingCode": "=== Selecting a different JetBrains JDK using the \"`Choose Runtime`\" plugin\n\nThis is recommended for Android Studio 4.0 that includes JetBrains OpenJDK 8 as default without JavaFX support.\n\nNOTE: See xref:features/preview/jcef-preview.adoc[] for more information on Android Studio 4.2 or 2020.3+."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "7113d27d9c0bb7a59dd83f5e939b5c5f7518ac77a54eb41f81bf8566c5811149"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'To activate...' is a linking/introductory phrase that might require commas around it",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 45,
+      "offset": 1,
+      "length": 44,
+      "code": {
+        "startLine": 43,
+        "length": 44,
+        "offset": 114,
+        "surroundingCode": "\nThe default highlighter for the plugin's preview is the http://coderay.rubychan.de/[CodeRay source highlighter].\nTo activate source highlighting with CodeRay when rendering documents outside the IDE, set the following attribute in the header of the document:\n\n[source,asciidoc]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "af872c9c818118fccf7e65606c00727acfe2256fd5f72469b38f6d0cfb9c0011"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 102,
+      "offset": 95,
+      "length": 11,
+      "code": {
+        "startLine": 100,
+        "length": 11,
+        "offset": 207,
+        "surroundingCode": "For this example, the JavaScript bundle must be named _/hljs/highlight.min.js_.\nSee the next item for the theme.\n<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "ab2cb222af5697cf5bee74b9020dd0f02f5279119a45e576e632950b23b83606"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "An apostrophe may be missing.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 104,
+      "offset": 141,
+      "length": 6,
+      "code": {
+        "startLine": 102,
+        "length": 6,
+        "offset": 332,
+        "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "96737915306acef58932c2620a252e7bd713fd2b984eae4fac004cf605ba0e05"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 104,
+      "offset": 29,
+      "length": 11,
+      "code": {
+        "startLine": 102,
+        "length": 11,
+        "offset": 220,
+        "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "deb9f710e3dcf451469dd42dd5bd6eb333c99aa59f8266d3e173d92748d058a2"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The official name of this software platform is spelled with a capital \"H\".",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 104,
+      "offset": 65,
+      "length": 6,
+      "code": {
+        "startLine": 102,
+        "length": 6,
+        "offset": 256,
+        "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "92b8c8f800352c661bffbf5926183b3bf495d7546f799a501a40c7d231223d7d"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The official name of this software platform is spelled with a capital \"H\".",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 104,
+      "offset": 119,
+      "length": 6,
+      "code": {
+        "startLine": 102,
+        "length": 6,
+        "offset": 310,
+        "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "698a30f2a0044f0cf691f659ef3fab06ffc5ec641404ca05a2c087e7a674aa8a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "This word is normally spelled as one.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 63,
+      "offset": 141,
+      "length": 12,
+      "code": {
+        "startLine": 61,
+        "length": 12,
+        "offset": 287,
+        "surroundingCode": "In the editor, the user can autocomplete filenames and references using kbd:[Ctrl+Space] and can navigate to a folder or file using kbd:[Ctrl+B].\n\nTo allow auto-completion for components that reside in different Git repositories, consider using a xref:features/advanced/multimodule.adoc[multi-module project].\n\n=== Antora YAML schema support"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "9eb6c3514caa88ee73ade149ebdf6cddf2b5e00dfd84603bd508e94a773d9502"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "If a new sentence starts here, add a space and start with an uppercase letter.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 83,
+      "offset": 87,
+      "length": 10,
+      "code": {
+        "startLine": 81,
+        "length": 10,
+        "offset": 117,
+        "surroundingCode": "=== Antora attributes support\n\nThe plugin reads all attributes defined in the module's `antora.yml` file's _asciidoc.attributes_ section and uses this for the preview and auto-completion.\n\nStarting with release 0.35.2 of the plugin, it also picks up attributes from an Antora playbook if this is within the same project."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "af53aedee1adc31c13cac00e940bc038704f144b428158f06f86079d7a5fee47"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "This word is normally spelled as one.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/antora.adoc",
+      "language": "AsciiDoc",
+      "line": 86,
+      "offset": 127,
+      "length": 12,
+      "code": {
+        "startLine": 84,
+        "length": 12,
+        "offset": 259,
+        "surroundingCode": "\nStarting with release 0.35.2 of the plugin, it also picks up attributes from an Antora playbook if this is within the same project.\nIf the playbook and the components are in different Git repositories, this requires a xref:features/advanced/multimodule.adoc[multi-module project].\n\nThe plugin sets multiple attributes to allow referencing files with the current Antora module:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "41d098dfd6caa287213a3e6f22c9a1d4c2dfa97f64d104047c07806681be7a0e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The word 'Install' is not a noun.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoclet.adoc",
+      "language": "AsciiDoc",
+      "line": 30,
+      "offset": 21,
+      "length": 7,
+      "code": {
+        "startLine": 28,
+        "length": 7,
+        "offset": 100,
+        "surroundingCode": ". Select _Marketplace_ tab if it is not selected yet\n. Search for 'asciidoclet'\n. Click on the btn:[Install] button. +\nAs the Asciidoclet plugin depends on the AsciiDoc plugin, the IDE will ask to install the AsciiDoc plugin as well if it is not already installed.\n. Once the download is complete, restart the IDE"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "8224b0f3030f6150c48fd27eca01b3d490ff0915ef7de221fe64a8f8ff4b37f1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/frontmatter.adoc",
+      "language": "AsciiDoc",
+      "line": 8,
+      "offset": 36,
+      "length": 2,
+      "code": {
+        "startLine": 6,
+        "length": 2,
+        "offset": 52,
+        "surroundingCode": "== How it works\n\nThe plugins highlight the contents in the editor as YAML content.\n\nIt set the attribute `skip-front-matter` by default for the preview, therefore hiding the front matter in the preview."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "de90706f705b0b39a2ace013707b9e7b16a899538f4cd86115987c5d02f7c796"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 35,
+      "offset": 12,
+      "length": 28,
+      "code": {
+        "startLine": 33,
+        "length": 28,
+        "offset": 21,
+        "surroundingCode": "== Setup\n\nUsers find the extensive description in the https://www.jetbrains.com/help/idea/creating-and-managing-modules.html#multimodule-projects[IDE's docs].\nThe following paragraph gives a quick start.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "cba3ead4d3e6473cd2f383d6f50f3e0cd0bfef744ecbbcbb112d562bdae21732"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'model' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/multimodule.adoc",
+      "language": "AsciiDoc",
+      "line": 53,
+      "offset": 46,
+      "length": 5,
+      "code": {
+        "startLine": 51,
+        "length": 5,
+        "offset": 116,
+        "surroundingCode": ". Select the folder with the other Git repository and press btn:[OK].\n\n. Choose option _Import module from external model_.\n\n. Depending on the external model, complete the following dialogs."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "66c1fed297835f67b69a823605bb436f55d490f0134b4a8a94d3d8c29330441a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'version' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/stylesheets.adoc",
+      "language": "AsciiDoc",
+      "line": 54,
+      "offset": 44,
+      "length": 7,
+      "code": {
+        "startLine": 52,
+        "length": 7,
+        "offset": 75,
+        "surroundingCode": "==== Using a remote stylesheet\n\nNOTE: This has been available since plugin version 0.31.31+.\n\nOnce the document or the configuration set the `linkcss` attribute, the preview will link to an external stylesheet and will no longer embed the stylesheet."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "ea52365073fc38d96b683c965389d2338f75c98526e602435f644b8cfbc943a5"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
+      "language": "AsciiDoc",
+      "line": 18,
+      "offset": 21,
+      "length": 11,
+      "code": {
+        "startLine": 16,
+        "length": 11,
+        "offset": 58,
+        "surroundingCode": "== Special template _ad-tag-include_\n\n=== How the snippet tag include template works\n\nAll live templates of this plugin except one will only be available when editing AsciiDoc content. +"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "c37b26116d7387046ff14c750888dbb9ce7444069a4a43581c76679f4c59c7cb"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
+      "language": "AsciiDoc",
+      "line": 62,
+      "offset": 19,
+      "length": 7,
+      "code": {
+        "startLine": 60,
+        "length": 7,
+        "offset": 24,
+        "surroundingCode": "====\n\n=== Using the tag include live template\n\nThis live template works in two ways:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "0307985477184739dc8bb40f04746f46eca48b6e4716e52b4c01ce15649e3d54"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
+      "language": "AsciiDoc",
+      "line": 79,
+      "offset": 23,
+      "length": 7,
+      "code": {
+        "startLine": 77,
+        "length": 7,
+        "offset": 81,
+        "surroundingCode": "Then the user types the tag name and presses kbd:[Enter].\n\n=== Disabling the tag include live template\n\nIf a user doesn't want to see the _ad-tag-include_ live template when typing content in any other language, there are two options to disable it:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "a0b31b9fa1b58865609fe97967a9da8ecf6d42ab4f275240be568bd064375a5e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "The official name of this software platform is spelled with a capital \"H\".",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/validation-cicd.adoc",
+      "language": "AsciiDoc",
+      "line": 91,
+      "offset": 3,
+      "length": 6,
+      "code": {
+        "startLine": 89,
+        "length": 6,
+        "offset": 208,
+        "surroundingCode": ". Add a workflow the GitHub repository by adding the following file (see https://github.com/asciidoctor/asciidoctor-intellij-plugin/blob/main/.github/workflows/build.yml[_docs.yml_^] in the GitHub repo):\n+\n..github/workflows/docs.yml\n[source,yaml]\n----"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "2b2f25e3d2501f199e20c041f8168e364264a99d2e5343c1e804a221768a4102"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
+      "language": "AsciiDoc",
+      "line": 8,
+      "offset": 21,
+      "length": 13,
+      "code": {
+        "startLine": 6,
+        "length": 13,
+        "offset": 72,
+        "surroundingCode": "NOTE: This requires version 0.30.6+ of the plugin.\n\n== What Spring REST Docs provides\n\nhttps://docs.spring.io/spring-restdocs/docs/current/reference/html5/[Spring REST Docs] allow the developer to write API documentation using information recorded in test cases."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "35ec5df8657613971f88f544d235fbe3d3d709431e2035096ae3da647bc147ee"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
+      "language": "AsciiDoc",
+      "line": 13,
+      "offset": 37,
+      "length": 12,
+      "code": {
+        "startLine": 11,
+        "length": 12,
+        "offset": 132,
+        "surroundingCode": "These ensure that the examples in the documentation work with the current version of the code.\n\nWhen running the tests, Spring REST Docs creates a folder `generated-snippets` with the recorded examples.\nThe developer can reference these snippets in the documentation.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "8b83fa1ce77f943c8a92ff7269d7358394e234fcc97464b52c85ea78097107a0"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Subject-verb agreement seems to be violated",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/spring-rest-docs.adoc",
+      "language": "AsciiDoc",
+      "line": 54,
+      "offset": 22,
+      "length": 17,
+      "code": {
+        "startLine": 52,
+        "length": 17,
+        "offset": 41,
+        "surroundingCode": "== Example project\n\nThe Spring REST Docs projects provides an example project how to set up things: https://github.com/spring-projects/spring-restdocs/tree/master/samples/rest-notes-spring-hateoas\n\nAs the editor support requires the generated snippets-folder to be present, users need to run their tests to create and populate it before the editor support activates."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "445655ceb4b2b7f3a001378cfb20f08c0a83040153e5fbdfd1d966e133ac5abf"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Too many punctuation marks",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 25,
+      "offset": 7,
+      "length": 2,
+      "code": {
+        "startLine": 23,
+        "length": 2,
+        "offset": 82,
+        "surroundingCode": "\\ifdef::env-idea[]\nRender this text IF running IntelliJ Asciidoctor Plugin.\n\\endif::[]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "5d225d16416e3982757ec66882b7a613d52770d195aa456933bd598da8dd6141"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Too many punctuation marks",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 38,
+      "offset": 7,
+      "length": 2,
+      "code": {
+        "startLine": 36,
+        "length": 2,
+        "offset": 85,
+        "surroundingCode": "\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "b4e3a933038a8f093e4d129d72c8516688653c40c434f95c96ec43a731141932"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use 'to' with the base verb form after 'choose'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 9,
+      "offset": 22,
+      "length": 6,
+      "code": {
+        "startLine": 7,
+        "length": 6,
+        "offset": 47,
+        "surroundingCode": "== Creating an HTML file\n\nThe user can choose _Create HTML from current file_ from the editor's action toolbar to convert the file to the HTML format.\nIf creating HTML succeeds, the exported file is opened in the system's default browser.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "04c81595d40dd6e302093c456806af06cfc024e8bc1550fa42067b1c7e1b38d6"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 14,
+      "offset": 29,
+      "length": 3,
+      "code": {
+        "startLine": 12,
+        "length": 3,
+        "offset": 52,
+        "surroundingCode": "== Creating a PDF file\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 1.6.x.\nIf creating the PDF succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "ee64fa6ce3c09561ea085cfc626c372dae5c330d387e7ff1b66c185e59bfa209"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use 'to' with the base verb form after 'choose'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/creating-html-and-pdf.adoc",
+      "language": "AsciiDoc",
+      "line": 14,
+      "offset": 22,
+      "length": 6,
+      "code": {
+        "startLine": 12,
+        "length": 6,
+        "offset": 45,
+        "surroundingCode": "== Creating a PDF file\n\nThe user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file shown in the current AsciiDoc editor to a PDF using Asciidoctor PDF version 1.6.x.\nIf creating the PDF succeeds, the plugin opens the PDF in the system's PDF viewer.\nTo find out more how to configure the output and formatting, visit https://asciidoctor.org/docs/asciidoctor-pdf/."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "96546cf00cfb2b7cd32b4ffe056e13593eed4f9656e08082097fad81ddf0f0f1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use plural nouns after 'lots of'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctor-extensions.adoc",
+      "language": "AsciiDoc",
+      "line": 40,
+      "offset": 44,
+      "length": 6,
+      "code": {
+        "startLine": 38,
+        "length": 6,
+        "offset": 91,
+        "surroundingCode": "====\nExtensions run in the same JVM as the IDE.\nErrors in extensions might consume lots of memory, CPU and might crash the IDE.\nChanging extensions at runtime re-instantiates the Asciidoctor and JRuby runtime, which will lead to memory leaks.\n===="
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "0472f84c144b4142c259fdc333cb0b0c65d7687081f62a02b7d70dab1767c34a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use 'a' before a consonant sound",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctorconfig-file.adoc",
+      "language": "AsciiDoc",
+      "line": 2,
+      "offset": 97,
+      "length": 3,
+      "code": {
+        "startLine": 1,
+        "length": 3,
+        "offset": 122,
+        "surroundingCode": "= Asciidoctor Config File\n:description: To provide a common set of variables when rendering the preview, the plugin reads an .asciidoctorconfig configuration file.\n\nTo provide a common set of variables when rendering the preview, the plugin reads an _.asciidoctorconfig_ configuration file."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "3613089bac6aafbf3e6eb53a47d48dff0438d837a5bc14e09ff78a7b0c2683ed"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use 'a' before a consonant sound",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctorconfig-file.adoc",
+      "language": "AsciiDoc",
+      "line": 4,
+      "offset": 83,
+      "length": 3,
+      "code": {
+        "startLine": 2,
+        "length": 3,
+        "offset": 221,
+        "surroundingCode": ":description: To provide a common set of variables when rendering the preview, the plugin reads an .asciidoctorconfig configuration file.\n\nTo provide a common set of variables when rendering the preview, the plugin reads an _.asciidoctorconfig_ configuration file.\nUse this to optimize the preview when the project contains a document that is split out to multiple include-files.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "38f0e4a4232216e5d2afe0c5aba4992dd1522117f2242e213a36a9c19fab1f8c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctorconfig-file.adoc",
+      "language": "AsciiDoc",
+      "line": 15,
+      "offset": 16,
+      "length": 18,
+      "code": {
+        "startLine": 13,
+        "length": 18,
+        "offset": 28,
+        "surroundingCode": "== Solution\n\nA file called _.asciidoctorconfig_ will contain a snippet that will be pre-pended before rendering the AsciiDoc file.\n\nThe IntelliJ IDE provides a variable _asciidoctorconfigdir_ that users can use to set base directory variables."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "4e29b55744291d74ad966ccf20c6ce082c0ba8059939505431cf51f119a667f1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect verb form",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/asciidoctorconfig-file.adoc",
+      "language": "AsciiDoc",
+      "line": 57,
+      "offset": 96,
+      "length": 5,
+      "code": {
+        "startLine": 55,
+        "length": 5,
+        "offset": 158,
+        "surroundingCode": "=== Generating a .asciidoctorconfig file during project build\n\nFor Gradle is an _asciidoctorEditorConfig_ task available to create a .asciidoctorconfig via a build task.\nSee https://github.com/asciidoctor/asciidoctor-gradle-plugin/blob/master/docs/src/docs/asciidoc/parts/asciidoctoreditorconfig-plugin.adoc[the docs for the 3.2+ release of the asciidoctor-gradle-plugin] for more details.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "1ec5de5424eeef19323a7957d4ca7f96977442b7a004387ac4109dc6b614589c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use 'to' with the base verb form after 'choose'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/pdf-non-latin-languages.adoc",
+      "language": "AsciiDoc",
+      "line": 10,
+      "offset": 50,
+      "length": 6,
+      "code": {
+        "startLine": 8,
+        "length": 6,
+        "offset": 203,
+        "surroundingCode": "\nWhen creating a PDF from the IDE, the embedded Asciidoctor PDF needs true type fonts (TTFs) that include the characters included in the AsciiDoc source.\nOnce the setup is complete, the user can choose _Create PDF from current file_ from the editor's action toolbar to convert the file.\n\n== Setup for Chinese fonts"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "b4fa61ebd08fa8f4cc2c4ecdbdef53e60d6c113bda196001077fe70a455bc3ce"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "An apostrophe may be missing.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/pdf-non-latin-languages.adoc",
+      "language": "AsciiDoc",
+      "line": 67,
+      "offset": 17,
+      "length": 5,
+      "code": {
+        "startLine": 65,
+        "length": 5,
+        "offset": 53,
+        "surroundingCode": "  font_family: kaigen-gothic-cn\n----\n. Populate the _fonts_ folder with _KaiGenGothicCN*.ttf_ files downloaded from _https://github.com/minjiex/kaigen-gothic/tree/master/dist/CN_\n\nOnce the setup is complete, the user can use the _Create PDF from current file_ from the editor's action toolbar to convert the file."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "da0a76a26239e8b18dfeac5fc27e45a9dd465d4b0bb372d6fd9a63485fd14b8e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'document' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/pdf-non-latin-languages.adoc",
+      "language": "AsciiDoc",
+      "line": 99,
+      "offset": 7,
+      "length": 2,
+      "code": {
+        "startLine": 97,
+        "length": 2,
+        "offset": 26,
+        "surroundingCode": "== Public examples\n\nThere is https://github.com/diguage/jdk-source-analysis[@diguage's \"`JDK source code analysis`\" document] available.\nIt contains AsciiDoc in Chinese plus a working setup for an _.asciidoctorconfig_ file.\nAs fonts, the author has chosen Source Han Serif and converted them to TTF."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "3ee8f26458732e58175c64a07dfff5225abaca296eedee9ba3941a0f14524965"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'document' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/pdf-non-latin-languages.adoc",
+      "language": "AsciiDoc",
+      "line": 99,
+      "offset": 97,
+      "length": 8,
+      "code": {
+        "startLine": 97,
+        "length": 8,
+        "offset": 116,
+        "surroundingCode": "== Public examples\n\nThere is https://github.com/diguage/jdk-source-analysis[@diguage's \"`JDK source code analysis`\" document] available.\nIt contains AsciiDoc in Chinese plus a working setup for an _.asciidoctorconfig_ file.\nAs fonts, the author has chosen Source Han Serif and converted them to TTF."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "a0f5fbf385053874f9a594bd8f529efca991311d814feff20566bd080ab26190"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
+      "language": "AsciiDoc",
+      "line": 15,
+      "offset": 28,
+      "length": 2,
+      "code": {
+        "startLine": 13,
+        "length": 2,
+        "offset": 201,
+        "surroundingCode": "[#folding-attributes]\nAs an experimental feature, predefined attributes for character replacements like `+++{plus}+++` or `+++{quot}+++` and attributes are foldable as well.\nAttributes need to resolve to a single declared value to be folded.\nFolding is also available for HTML entities (like `\\&amp;`) and unicode characters (like `\\&#x2020;`).\nAs an experimental feature, the user needs to enable it in the settings of the plugin."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "ca6d0f692eb07060533415b85fe43111305c5a197c1de4073c66f65745adb1fe"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'text' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
+      "language": "AsciiDoc",
+      "line": 60,
+      "offset": 127,
+      "length": 4,
+      "code": {
+        "startLine": 58,
+        "length": 4,
+        "offset": 296,
+        "surroundingCode": "// see: AsciiDocReferenceContributor and AsciiDocJavaReferenceContributor for the creation of references\n// see: AsciiDocJavaReference for the resolution of Java classes\nThe user can navigate using kbd:[Ctrl+Click] and kbd:[Ctrl+B] from a file name or Java class name in backticks (as monospaced text like +++`filename.txt`+++ or +++`JavaClassName`+++) or in underscores (as italic text like +++_filename.txt_+++ or +++_JavaClassName_+++) or asterisks (as bold text like +++*filename.txt*+++ or +++*JavaClassName*+++).\nThe plugin tries to rename occurrences of files and Java classes in the AsciiDoc file when the user renames the file or the class.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "6fb2997c6b6181c4239b866f460e62845b76d85da479f605bb91caa6313f2490"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'text' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
+      "language": "AsciiDoc",
+      "line": 60,
+      "offset": 213,
+      "length": 4,
+      "code": {
+        "startLine": 58,
+        "length": 4,
+        "offset": 382,
+        "surroundingCode": "// see: AsciiDocReferenceContributor and AsciiDocJavaReferenceContributor for the creation of references\n// see: AsciiDocJavaReference for the resolution of Java classes\nThe user can navigate using kbd:[Ctrl+Click] and kbd:[Ctrl+B] from a file name or Java class name in backticks (as monospaced text like +++`filename.txt`+++ or +++`JavaClassName`+++) or in underscores (as italic text like +++_filename.txt_+++ or +++_JavaClassName_+++) or asterisks (as bold text like +++*filename.txt*+++ or +++*JavaClassName*+++).\nThe plugin tries to rename occurrences of files and Java classes in the AsciiDoc file when the user renames the file or the class.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e778b8f6249369b49450454eef93f77b51e0f05da3fea3bc3a9b64451bd4f04d"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/editor.adoc",
+      "language": "AsciiDoc",
+      "line": 112,
+      "offset": 19,
+      "length": 11,
+      "code": {
+        "startLine": 110,
+        "length": 11,
+        "offset": 45,
+        "surroundingCode": "\n// see: ExternalAnnotator\nDuring rendering, Asciidoctor might indicate problems in the file including a line number.\nThe editor shows them as red and yellow annotations.\nHover over the annotations to see the full warning or error message."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "48fc969b892ba3fbfb278827f14630547b9085be713d0636e5a5f7fd238f9ec5"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'text' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 51,
+      "offset": 2,
+      "length": 4,
+      "code": {
+        "startLine": 49,
+        "length": 4,
+        "offset": 92,
+        "surroundingCode": "| Copy current line to clipboard | kbd:[Ctrl+C],kbd:[Ctrl+Insert]\n| Paste from clipboard +\n(text or images) | kbd:[Ctrl+V],kbd:[Shift+Insert]\n| Move current line up/down | kbd:[Ctrl+Shift+Up]/kbd:[Down]\n| Duplicate current line  | kbd:[Ctrl+D]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "fda53fa0b115746a9030f428d2cf9ce14642b08d175ec9e4291ddd0e7f6578b8"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'end' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 59,
+      "offset": 18,
+      "length": 3,
+      "code": {
+        "startLine": 57,
+        "length": 3,
+        "offset": 125,
+        "surroundingCode": "| Start new line | kbd:[Shift+Enter]\n| Toggle case for word at caret or selected block | kbd:[Ctrl+Shift+U]\n| Delete to word end | kbd:[Ctrl+Delete]\n| Delete to word start | kbd:[Ctrl+Backspace]\n| Close active editor tab | kbd:[Ctrl+F4]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "dda798667f24438171a7846c0e046ba0f7524042c23fc9718f2d18b7571409f8"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 63,
+      "offset": 6,
+      "length": 7,
+      "code": {
+        "startLine": 61,
+        "length": 7,
+        "offset": 73,
+        "surroundingCode": "| Close active editor tab | kbd:[Ctrl+F4]\n| Basic code completion +\n(for example file names) | kbd:[Ctrl+Space]\n| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e12a797b4dfea67f9d43e376da07170ee5a5be399ddced7a089813bd8d0c0405"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 65,
+      "offset": 6,
+      "length": 7,
+      "code": {
+        "startLine": 63,
+        "length": 7,
+        "offset": 75,
+        "surroundingCode": "(for example file names) | kbd:[Ctrl+Space]\n| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "58817fda920c20652b6e4a15cc897b6b7313a4b13735975496257498884d3b33"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 66,
+      "offset": 16,
+      "length": 9,
+      "code": {
+        "startLine": 64,
+        "length": 9,
+        "offset": 91,
+        "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]\n| Quick documentation lookup | kbd:[Ctrl+Q]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "6dce23979de5c8608d0e322770f97864314a005ea74bb1895ddbb208767f0822"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 66,
+      "offset": 27,
+      "length": 1,
+      "code": {
+        "startLine": 64,
+        "length": 1,
+        "offset": 102,
+        "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]\n| Quick documentation lookup | kbd:[Ctrl+Q]\n| Brief Info | kbd:[Ctrl+mouse]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e18aae24fdc4436c437de03497bcc5ac3538fbc0370d19f6c1d3675450275b6a"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 67,
+      "offset": 2,
+      "length": 11,
+      "code": {
+        "startLine": 65,
+        "length": 11,
+        "offset": 78,
+        "surroundingCode": "(for example file names) | kbd:[Ctrl+Shift+Space]\n| Complete the statement +\n(for example macros) | kbd:[Ctrl+Shift+Enter]\n| Quick documentation lookup | kbd:[Ctrl+Q]\n| Brief Info | kbd:[Ctrl+mouse]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "298d569feadf3b2da6228cf16a3d402239a2d0fc4d91f813f4638dd0e91ccfc4"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'for example' is a linking/introductory phrase that might require commas around it",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 98,
+      "offset": 2,
+      "length": 11,
+      "code": {
+        "startLine": 96,
+        "length": 11,
+        "offset": 53,
+        "surroundingCode": "| Replace in current file | kbd:[Ctrl+R]\n| Rename +\n(for example ID or file name) | kbd:[Shift+F6]\n| Recent files popup | kbd:[Ctrl+E]\n| Navigate back/forward | kbd:[Ctrl+Alt+Left/Right]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "3dbd95db1239e65b6c935646cffe3cbc7ae3ed7799c663c716048d0ca8959996"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'text' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 149,
+      "offset": 2,
+      "length": 4,
+      "code": {
+        "startLine": 147,
+        "length": 4,
+        "offset": 71,
+        "surroundingCode": "| Copy current line to clipboard | kbd:[⌘+C]\n| Paste from clipboard +\n(text or images) | kbd:[⌘+V]\n| Move current line up/down | kbd:[⇧+⌘+Up]/kbd:[Down]\n| Duplicate current line  | kbd:[⌘+D]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "7ef87d44b38311b7b2b641711976e974eff8b4e6d8bf13dc2f28852c1d814eaa"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'end' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 158,
+      "offset": 18,
+      "length": 3,
+      "code": {
+        "startLine": 156,
+        "length": 3,
+        "offset": 124,
+        "surroundingCode": "| Toggle case for word at caret or selected block | kbd:[⌘+⇧+U]\n| Delete to word start | kbd:[⌥+Backspace]\n| Delete to word end | kbd:[⌥+Delete]\n| Close active editor tab | kbd:[⌘+W]\n| Basic code completion +"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "278f03fea91fafa2fe6914927f2c0c98c433b5de501668f5f5482ddc8ab58330"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 161,
+      "offset": 6,
+      "length": 7,
+      "code": {
+        "startLine": 159,
+        "length": 7,
+        "offset": 69,
+        "surroundingCode": "| Close active editor tab | kbd:[⌘+W]\n| Basic code completion +\n(for example file names) | kbd:[^+Space]\n| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "6bd20ed5e85b3a8e5b441e037d8401e44dd39e0e68f600168db19dc7035a635d"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Missing punctuation",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 163,
+      "offset": 6,
+      "length": 7,
+      "code": {
+        "startLine": 161,
+        "length": 7,
+        "offset": 72,
+        "surroundingCode": "(for example file names) | kbd:[^+Space]\n| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e37fc1afe8e3cce0f528bd275f0f3484221eaf2c780edb57ba51aeac093780d8"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 164,
+      "offset": 16,
+      "length": 9,
+      "code": {
+        "startLine": 162,
+        "length": 9,
+        "offset": 84,
+        "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]\n| Quick documentation lookup | kbd:[^+J]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e30180a108e5cf5799ecaac8ecdb7a0bb78aeedffa897bdd2fa301a9e927b7ae"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 164,
+      "offset": 27,
+      "length": 1,
+      "code": {
+        "startLine": 162,
+        "length": 1,
+        "offset": 95,
+        "surroundingCode": "| Smart code completion +\n(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]\n| Quick documentation lookup | kbd:[^+J]\n| Brief Info | kbd:[⌘+mouse]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "6d423da804735dd76df288ca865421933261604d536ace0f682880ba1b80bb3e"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple mistakes",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 165,
+      "offset": 2,
+      "length": 11,
+      "code": {
+        "startLine": 163,
+        "length": 11,
+        "offset": 71,
+        "surroundingCode": "(for example file names) | kbd:[^+⇧+Space]\n| Complete the statement +\n(for example macros) | kbd:[⌘+⇧+Enter]\n| Quick documentation lookup | kbd:[^+J]\n| Brief Info | kbd:[⌘+mouse]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e6f586f3f027925f2218f61d90d4730bbaa9277c965f9401212aa141c0c719a1"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'for example' is a linking/introductory phrase that might require commas around it",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/keymap.adoc",
+      "language": "AsciiDoc",
+      "line": 196,
+      "offset": 2,
+      "length": 11,
+      "code": {
+        "startLine": 194,
+        "length": 11,
+        "offset": 50,
+        "surroundingCode": "| Replace in current file | kbd:[⌘+R]\n| Rename +\n(for example ID or file name) | kbd:[⇧+F6]\n| Recent files popup | kbd:[⌘+E]\n| Navigate back/forward | kbd:[⌘+⌥+Left/Right]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "52acfc716c3e313b0309e3319d1181b4d9a21aef024f8cfdbc4127d36fabc990"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'type' usually goes with an article",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/index.adoc",
+      "language": "AsciiDoc",
+      "line": 14,
+      "offset": 16,
+      "length": 4,
+      "code": {
+        "startLine": 12,
+        "length": 4,
+        "offset": 102,
+        "surroundingCode": "Mention unique-selling-propositions (USP) that differentiate this plugin from others.\n\nAssumed reader type: someone who is new to the plugin, but might have heard about AsciiDoc before.\n////\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "847a3b9735d55e3714d259dd01f6ac372178baf646272be7027c568aeb7dd447"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Unfinished sentence?",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/index.adoc",
+      "language": "AsciiDoc",
+      "line": 44,
+      "offset": 18,
+      "length": 8,
+      "code": {
+        "startLine": 42,
+        "length": 8,
+        "offset": 43,
+        "surroundingCode": "== Where to go from here\n\nTo continue your journey,\n\n* visit the (short) xref:quick-start.adoc[] guide or (in depth) xref:installation.adoc[] guide,"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "6f1935f8f87527202d902e6300a1f3884a2f185c97519a2463932101579c9c52"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/quick-start.adoc",
+      "language": "AsciiDoc",
+      "line": 21,
+      "offset": 38,
+      "length": 7,
+      "code": {
+        "startLine": 19,
+        "length": 7,
+        "offset": 50,
+        "surroundingCode": "[WARNING]\n--\nPlease use the pre-bundled JetBrains OpenJDK Runtime 11 to run your IDE. This provides the best live preview based on JavaFX or JCEF. You can check this in the menu menu:Help[About].\n\nIt should state:"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "f8a440520c42ad3a898d5eb7388d1f8d086da4d5c90648b4fb2bd0254cc35849"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Use plural nouns after 'one of'",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 12,
+      "offset": 58,
+      "length": 6,
+      "code": {
+        "startLine": 10,
+        "length": 6,
+        "offset": 75,
+        "surroundingCode": "== Prerequisites\n\nTo use this plugin, you need to have one of the IntelliJ family of IDEs like IntelliJ IDEA, GoLand, WebStorm or PyCharm installed.\nSee below for <<google-android-studio,Android Studio>> and <<intellij-mps,IntelliJ MPS>>.\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e841c2aae1e67e6bec93718645ecd3bea9ba87d09af39395c37eda77199fe535"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Incorrect grammar",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/installation.adoc",
+      "language": "AsciiDoc",
+      "line": 48,
+      "offset": 32,
+      "length": 4,
+      "code": {
+        "startLine": 46,
+        "length": 4,
+        "offset": 99,
+        "surroundingCode": "If you use MPS, go ahead and <<installplugin,install the plugin>>.\n\nSupport will be limited as MPS doesn't have all the APIs the plugin can hook into.\nHave a look at xref:faq/troubleshooting-mps.adoc[].\nPlease open an issue on GitHub if you want to contribute to making MPS support better."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "3ac2d05f0b4e5d88393abcedbdde5dd7d13f97f134d24cf57411cf167f896a30"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple whitespace",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "contributors-guide/modules/ROOT/pages/user/upvote-intellij-issues.adoc",
+      "language": "AsciiDoc",
+      "line": 8,
+      "offset": 102,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 214,
+        "surroundingCode": "Or something needs to be implemented in IntelliJ IDEA, so this plugin can build new functionality on top of it.\n\nUsers can raise the visibility of these issues up-voting this issue by clicking on the thumbs-up icon (&#128077;) in the JetBrains YouTrack issue tracker.\n\nThis lists some issues Alexander (the current maintainer of the plugin) marked as important to him."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "d09de319532483d63884d7064c35ae973944d931f3124a4e8435b37de99886aa"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Multiple whitespace",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "contributors-guide/modules/ROOT/pages/user/upvote-intellij-issues.adoc",
+      "language": "AsciiDoc",
+      "line": 8,
+      "offset": 114,
+      "length": 1,
+      "code": {
+        "startLine": 6,
+        "length": 1,
+        "offset": 226,
+        "surroundingCode": "Or something needs to be implemented in IntelliJ IDEA, so this plugin can build new functionality on top of it.\n\nUsers can raise the visibility of these issues up-voting this issue by clicking on the thumbs-up icon (&#128077;) in the JetBrains YouTrack issue tracker.\n\nThis lists some issues Alexander (the current maintainer of the plugin) marked as important to him."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "6f5faf42bead0f81948331bd5fb98d0b402cef5b4b59f84504f96c7ead3a4d74"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Two consecutive dots",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "contributors-guide/modules/ROOT/pages/user/upvote-intellij-issues.adoc",
+      "language": "AsciiDoc",
+      "line": 14,
+      "offset": 52,
+      "length": 2,
+      "code": {
+        "startLine": 12,
+        "length": 2,
+        "offset": 110,
+        "surroundingCode": "\nhttps://youtrack.jetbrains.com/issue/CWM-1199[CWM-1199]::\nSupport for file editors other than text ones (e.g. .md, .ipynb, .mysql, designers, etc.)\nhttps://youtrack.jetbrains.com/issue/CWM-790[CWM-790]::\nIntelliJ client doesn't show toolbar and split/preview window of custom editor"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "e79ceb28623e96c86d495f9fabf5e923e52c528840cbc239c3898de1b49b1f49"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "An apostrophe may be missing.",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "contributors-guide/modules/ROOT/pages/user/installing-a-preview-release.adoc",
+      "language": "AsciiDoc",
+      "line": 13,
+      "offset": 86,
+      "length": 6,
+      "code": {
+        "startLine": 11,
+        "length": 6,
+        "offset": 116,
+        "surroundingCode": "To try out a preview release:\n\n. Download the new release file `asciidoctor-intellij-plugin-xx.xx.xx.zip` from the _Assets_ section of the release.\n. Go to menu:File[Settings... > Plugins > Gear Icon] (icon:gear[]).\n. Choose menu:Install plugin from disk...[]."
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "0b6c1aa9f3011ac87c12cc3d35c5bb327da4aa96b574e80496fd6152f908c860"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "'either' implies a negative phrase, condition, or question",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "contributors-guide/modules/ROOT/pages/coder/lexing-and-parsing.adoc",
+      "language": "AsciiDoc",
+      "line": 140,
+      "offset": 52,
+      "length": 6,
+      "code": {
+        "startLine": 138,
+        "length": 6,
+        "offset": 241,
+        "surroundingCode": "Currently, several tokens have the same highlighting `ASCIIDOC_MARKER`, so users have the same color for the pointy brackets around references (`\\<<ref>>`)and markers for bold (`\\*bold*`).\n\nOnce you add a new `TextAttributesKey`, you should either:\n\n. reference an existing color (like `ASCIIDOC_COMMENT` references `DefaultLanguageHighlighterColors.LINE_COMMENT`) OR"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection"
+  },
+  "hash": "0fdcc0640622d73ff9fa0be2063266703900a1772cd6e0e862335adc9d0cea06"
+}]}
