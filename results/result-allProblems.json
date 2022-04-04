@@ -641,64 +641,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'hightlight'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
-      "language": "AsciiDoc",
-      "line": 2,
-      "offset": 99,
-      "length": 10,
-      "code": {
-        "startLine": 1,
-        "length": 10,
-        "offset": 135,
-        "surroundingCode": "= Source highlighting in the preview\n:description: The preview supports different highlighting for source code like Coderay, Rouge and hightlight.js.\n\nSource highlighting shows source code listings in a document colored for better readability similar to an IDE."
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "6a7b0f2bdf6397e2de6d61f4ab0f919694e3fa6c2a1398c921f125fc2d02702e"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'hightlight'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
-      "language": "AsciiDoc",
-      "line": 5,
-      "offset": 85,
-      "length": 10,
-      "code": {
-        "startLine": 3,
-        "length": 10,
-        "offset": 196,
-        "surroundingCode": "\nSource highlighting shows source code listings in a document colored for better readability similar to an IDE.\nThe preview supports different highlighting for source code like Coderay, Rouge and hightlight.js.\nThe plugin supports this both for the JCEF and the JavaFX preview modes.\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "6b46df5aa5fbcb3137390924486a4dbf61036d27ae1d51faab31d05d71f5d0e1"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'highlightjs'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -722,7 +664,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "0f9d733f35fe89caa748fd33874c14fee2879055a523d538ad4abacc1c80b385"
+  "hash": "d0078e05a8764404d2046f41b26ee2bd823b3426a08f31861a882aa52796fa23"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -751,7 +693,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "de5ecc418d814fc32d0d4a886327139ef5783799a24d1e08cb328972640d1c6c"
+  "hash": "f2bb338a6770dbaf6419e9e096559cb0fbabaf878667d6e4d05af10ea2c70bd0"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -780,7 +722,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "1db278d36137d7bcefe8fe766cadf37741938c932a976f519f22a82230143280"
+  "hash": "56749034753358bafc5802d2baadd1c2fc086f1a31dc8c8fdd4ea96e30f45c8e"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -809,7 +751,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "ef4399c91771e7c9115182496e5e1af04fc0cc52a36722a35e8fa751c7917f35"
+  "hash": "ffa800700234b0b64c1cfe95b7c12f83e66aa8d00efcc787d37c6ab8996eb3d9"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -838,7 +780,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "f46ab04143afa9c697a88ee564d9e74411a97bde7d602b5ef052c898b6f72f2f"
+  "hash": "abec9bdc94d1eba0485d29b37f85c8cab586717aaf6cc564d0ac813e49870de1"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -867,7 +809,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "18346479e48410ead4f8d40bbe46c611c1408992a9c17c4dfa42fb26c3de87d9"
+  "hash": "6b0a6e6d559dc250df84a78774b51a3d50430ed6bdf6598fe9fe4a83de46d170"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1083,35 +1025,6 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
       "language": "AsciiDoc",
-      "line": 49,
-      "offset": 24,
-      "length": 7,
-      "code": {
-        "startLine": 47,
-        "length": 7,
-        "offset": 53,
-        "surroundingCode": "Some text from another file:\n\n\\include::text.txt[tag=tagname]\n----\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "a7d8f9ae80f2fe31c7855dc1934ec0216253338d1cc56c2a5ca7e2a9fabaef66"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'tagname'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
-      "language": "AsciiDoc",
       "line": 36,
       "offset": 9,
       "length": 7,
@@ -1158,6 +1071,35 @@
     "baselineState": "new"
   },
   "hash": "379e4677e6277271445ae5f6675917fd6d94f8f6eae491ef56e301dec475fd85"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'tagname'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
+      "language": "AsciiDoc",
+      "line": 49,
+      "offset": 24,
+      "length": 7,
+      "code": {
+        "startLine": 47,
+        "length": 7,
+        "offset": 53,
+        "surroundingCode": "Some text from another file:\n\n\\include::text.txt[tag=tagname]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "a7d8f9ae80f2fe31c7855dc1934ec0216253338d1cc56c2a5ca7e2a9fabaef66"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2444,7 +2386,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "af872c9c818118fccf7e65606c00727acfe2256fd5f72469b38f6d0cfb9c0011"
+  "hash": "f2e5f798597652061c2eda17169d6a43d23ad8cac8559043a4fb698b23e4505f"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2474,7 +2416,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "d1c91c5a7a90e28da65ded7c4451be098c4e4675185a3a21155633a5f0f32755"
+  "hash": "3acc6f5d8d49af04450da485a17afc5792432ffe146c5832680be6e82861d6f3"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2504,7 +2446,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "20f507ccc920072bf600d853081b5d31f34152bc10d11a2cae0d4bb5d71d897c"
+  "hash": "8691bff1becdca14a3c0da9361a9475085670752337229ecbb035011319b2361"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2534,7 +2476,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "40e684805a29159a2b04a88622d76c0ad06702177cf4ffa5eefb3cfa848de68b"
+  "hash": "691e769dbec58ff45165da08ff91350f5394b8b4a2b2757d0a9cba3d625f63ae"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2564,7 +2506,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "5cb05201fdd990b3add4e5b0e88dec905abd1acb913d1e9a4d29de69b7028159"
+  "hash": "ea23c93c3988acc3071f866a6895167030b9478aa6783d66f04fa0b926258c4c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -2594,7 +2536,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "18d184a24b93f3b5289e5833077fc276c99dce72ffa31e47e3fb0bc98ab466cc"
+  "hash": "bf6746ab6ea181e9679b3b505e989cea5f936d98defb628cfd4c83c8f1f07e1b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
