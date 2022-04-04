@@ -641,35 +641,6 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'hljs'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
-      "language": "AsciiDoc",
-      "line": 89,
-      "offset": 18,
-      "length": 4,
-      "code": {
-        "startLine": 87,
-        "length": 4,
-        "offset": 57,
-        "surroundingCode": "-----\n:source-highlighter: highlight.js\n:highlightjsdir: hljs <1>\n:highlightjs-theme: default <2>\n:highlightjs-languages: basic <3>"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "0fd5420cf534b2361961603106d6417ab909ca17b2e5976dbbdfe0d0408749d7"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
   "comment": "Typo: In word 'hightlight'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
@@ -764,11 +735,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 100,
+      "line": 91,
       "offset": 57,
       "length": 4,
       "code": {
-        "startLine": 98,
+        "startLine": 89,
         "length": 4,
         "offset": 196,
         "surroundingCode": "-----\n<.> If the user specifies the attribute _highlightjsdir_, they *must* place the JavaScript bundle and a theme in the current project.\nFor this example, the JavaScript bundle must be named _/hljs/highlight.min.js_.\nSee the next item for the theme.\n<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_."
@@ -780,7 +751,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "2f2ab8b2fbdc85bfa9d80d9b55cfd11d72b629094d809ac060856f5596dc1254"
+  "hash": "de5ecc418d814fc32d0d4a886327139ef5783799a24d1e08cb328972640d1c6c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -793,11 +764,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 102,
+      "line": 93,
       "offset": 95,
       "length": 11,
       "code": {
-        "startLine": 100,
+        "startLine": 91,
         "length": 11,
         "offset": 207,
         "surroundingCode": "For this example, the JavaScript bundle must be named _/hljs/highlight.min.js_.\nSee the next item for the theme.\n<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder."
@@ -809,7 +780,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "009cc7409dde9824d0b3d2235cebafdc849efbd78c3c37be90c80a555d8f8e16"
+  "hash": "1db278d36137d7bcefe8fe766cadf37741938c932a976f519f22a82230143280"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -822,11 +793,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 105,
+      "line": 96,
       "offset": 38,
       "length": 4,
       "code": {
-        "startLine": 103,
+        "startLine": 94,
         "length": 4,
         "offset": 271,
         "surroundingCode": "A CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_.\nThis requires a file for each language defined here."
@@ -838,7 +809,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "405a558e6ec3a283a5c9b1f65970ba95873861e30fb6007d1d1a705d43563ec6"
+  "hash": "ef4399c91771e7c9115182496e5e1af04fc0cc52a36722a35e8fa751c7917f35"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -851,11 +822,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 106,
+      "line": 97,
       "offset": 113,
       "length": 11,
       "code": {
-        "startLine": 104,
+        "startLine": 95,
         "length": 11,
         "offset": 335,
         "surroundingCode": "If a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_.\nThis requires a file for each language defined here.\nFor this example, the user must place _/hljs/languages/basic.min.js_ in the current project."
@@ -867,7 +838,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "93b2a61931a08db76fb337cb5315acd003d5630235e4b0bc020fd141c9962128"
+  "hash": "f46ab04143afa9c697a88ee564d9e74411a97bde7d602b5ef052c898b6f72f2f"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -880,11 +851,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 108,
+      "line": 99,
       "offset": 41,
       "length": 4,
       "code": {
-        "startLine": 106,
+        "startLine": 97,
         "length": 4,
         "offset": 229,
         "surroundingCode": "<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_.\nThis requires a file for each language defined here.\nFor this example, the user must place _/hljs/languages/basic.min.js_ in the current project.\n\nUsers can change the default code highlighter:"
@@ -896,7 +867,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "aae9f7642a0dbaca23f66ab2a1648e1574c6af7609501231f611dadcee938fd7"
+  "hash": "18346479e48410ead4f8d40bbe46c611c1408992a9c17c4dfa42fb26c3de87d9"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1917,195 +1888,21 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'DOCTYPE'",
+  "comment": "Typo: In word 'hljs'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 3,
-      "offset": 3,
-      "length": 7,
+      "path": "users-guide/modules/ROOT/examples/highlightjs-highlighting.adoc",
+      "language": "AsciiDoc",
+      "line": 2,
+      "offset": 18,
+      "length": 4,
       "code": {
         "startLine": 1,
-        "length": 7,
-        "offset": 109,
-        "surroundingCode": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "c4ce40543ea8ad7654a9fa191d5bdfea136a472c56d1ebbe113ff8c1949d1ebd"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'xmlns'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 6,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 172,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "f6f1f8f6aba8365e86e82a26ee35524243c04fba44bc001760cf91093c52d3f7"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'xlink'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 47,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 213,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "bb8063a281fc17d0aeb168bdb781fb21b09a19ca4ac392cd3ac883c7d0592184"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'mxfile'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 168,
-      "length": 6,
-      "code": {
-        "startLine": 2,
-        "length": 6,
-        "offset": 334,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "f9cbb0e75e74eafc5a753bec5bf32a92a8d3b4c86c268c03c0674bae1cbb5eb3"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'drawio'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 186,
-      "length": 6,
-      "code": {
-        "startLine": 2,
-        "length": 6,
-        "offset": 352,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "d145a523604dc15739bd1e0728af3a20c8ba8b8205f5c244f1ae96a24251dd90"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'KHTML'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 317,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 483,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "e6b53afa6634c900b05e594f7100ad3ff00229060bcaa77dd385023bce85946a"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'etag'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 376,
-      "length": 4,
-      "code": {
-        "startLine": 2,
         "length": 4,
-        "offset": 542,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
+        "offset": 51,
+        "surroundingCode": ":source-highlighter: highlight.js\n:highlightjsdir: hljs <1>\n:highlightjs-theme: default <2>\n:highlightjs-languages: basic <3>"
       }
     }
   ],
@@ -2114,1254 +1911,7 @@
     "inspectionName": "SpellCheckingInspection",
     "baselineState": "new"
   },
-  "hash": "ed8823866c927c74f8a9690be3841b861139cd2210ace4fbbfd2c299898e76e4"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Mkjcz'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 401,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 567,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "8e052d5d16dad1d083a0dbf5dd34636501614b8e8f608116f1fd649a29f7bf89"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Puvlwag'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 500,
-      "length": 7,
-      "code": {
-        "startLine": 2,
-        "length": 7,
-        "offset": 666,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "f66b6085bd0ee995f563405a1db7667b0de5a530bb97f0a3bc3a157d5dca21cf"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Utsw'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 546,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 712,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "95852ba033488be6bc5a917e6cda298c0c76eaf6ba5dd0a0d692400a818ccde3"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Evtlr'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 576,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 742,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "1475614e02d0393c4046a2f6f91ebc705024f8f4ce02aae017c8846d08569112"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Fntxh'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 625,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 791,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "ae8b1440be75e04e8af244098de41ceb540759655a7985b76a1ae1c5f09e214f"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Krjd'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 631,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 797,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "d2a4ba026f6c6012ccaf9552f66dd907551b03a2d26cfd63c685571ea9d948fc"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Dulv'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 646,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 812,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "39e55dda574237454b9b42694529dde61bcd7b13f694f139a8dc1d2b86711368"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Mqohrw'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 662,
-      "length": 6,
-      "code": {
-        "startLine": 2,
-        "length": 6,
-        "offset": 828,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "46c45644e4d9a975e9d10ca338447b4152cc4538f15333261c0004cee45739f2"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Qswx'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 693,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 859,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "86ff34cbff980912ece010a2eca7e0e1d20c95c6dd864eb433bf2cab16a4e658"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'jhvuz'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 703,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 869,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "1924516f2b3f266413cbc2c06d51558a59529b3f72f78e9aa47d884eae0acb0b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'aixgc'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 713,
-      "length": 5,
-      "code": {
-        "startLine": 2,
-        "length": 5,
-        "offset": 879,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "b9a45b8a26ed0b81235b07a7e6a694ec4970d0c3fc6f07bb8b9b1a74be654d79"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ZWSS'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 726,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 892,
-        "surroundingCode": "<!-- Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"a"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "2343b6ad44f3fa6043bc45274a97145a6c0dac0b24a369b50314012d754437b0"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'DTJO'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 738,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": " Do not edit this file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "0d2177ba01132e089ec12dae65cec4cf14117d5138491c99ee063a8c3594af5b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Uiwvka'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 756,
-      "length": 6,
-      "code": {
-        "startLine": 2,
-        "length": 6,
-        "offset": 900,
-        "surroundingCode": "file with editors other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 11"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "7d37bb63e0f35a7e37fa2b95171c550bae190e0603c40f12189412ed3a7ae923"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Lceg'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 774,
-      "length": 4,
-      "code": {
-        "startLine": 2,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "other than diagrams.net -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fi"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "510ccd3b12ed564d6c246a8eefe48c349c4bfb2ad47618d9d18ce69601542520"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Arqd'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 822,
-      "length": 4,
-      "code": {
-        "startLine": 3,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": " \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "fb006c9e9128ed1d7ba3cc77ed06612587230d0741eabf914f79a6032bacf12a"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Jqdk'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 836,
-      "length": 4,
-      "code": {
-        "startLine": 3,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-even"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "06f401a8d84c44fc3e45b37907194bb9537512b465b73abe6a098eefe18bcc0b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'YPSCX'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 894,
-      "length": 5,
-      "code": {
-        "startLine": 3,
-        "length": 5,
-        "offset": 900,
-        "surroundingCode": ".dtd\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "0b1e85800c05a545876020a20fd473154417396e51f7993e0ce975ec5fed748c"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Vmekz'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 915,
-      "length": 5,
-      "code": {
-        "startLine": 4,
-        "length": 5,
-        "offset": 900,
-        "surroundingCode": "tp://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "e91b281a680692dbe270f5ce78382202e86799a82133e1e0f24f555473767ae1"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'XSDVM'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 932,
-      "length": 5,
-      "code": {
-        "startLine": 4,
-        "length": 5,
-        "offset": 900,
-        "surroundingCode": "000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" "
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "7d62fe0ef3e523fc6cc1486393f4ba5efff8cfeaf98e3bf5ecf4ade46736ce72"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Gwzf'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 988,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "ion=\"1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\""
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "4dc4113ca05468c01f6d8201640808e5cf98f5443a3d1e2fc210da1255d3ad98"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Oyig'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 993,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "1.1\" width=\"521px\" height=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "01a973e5620045f90b2beb34f09c50dc38aeca70d4e2e1a480b27cafc78c1919"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'DVUZ'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1014,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "ight=\"261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L "
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "3c2f9493dbe11a55405d9d1b381c213041437902aa4bc10905849ef443438103"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Vagx'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1020,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "261px\" viewBox=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 "
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "f7d96606f2e7bc6ee02bb9838c1bfd1fe372090841e6d4582827c3b79e205937"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'hjaelto'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1031,
-      "length": 7,
-      "code": {
-        "startLine": 4,
-        "length": 7,
-        "offset": 900,
-        "surroundingCode": "Box=\"-0.5 -0.5 521 261\" content=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L "
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "2c6da205c9fb94a4c53a8c7bbce1fc985cea90df572ac14c47750582adc1229c"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Whvz'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1059,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "ent=\"&lt;mxfile host=&quot;drawio-plugin&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" st"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "a41afcf91b89a92824213072b4497d3b78a7dc096b9d7f8326bbadbd908ff32b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Xulr'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1097,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "in&quot; modified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" "
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "cb9558bcd7542861e8d4ec482084ef54ebeb3d72b8f6a05ede88268c4c429675"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Wvhs'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1108,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "dified=&quot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-eve"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "2b21971aad6a034251dc6fd194810874b99f5ecfcef5c5d69f7b668cc4c8fcf8"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Uxlqk'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1117,
-      "length": 5,
-      "code": {
-        "startLine": 4,
-        "length": 5,
-        "offset": 900,
-        "surroundingCode": "uot;2022-03-15T20:45:56.143Z&quot; agent=&quot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\""
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "f55f51373deb0413c1b9f4478e6460c9bbf969e730e884ef337dffe8ccdc2eea"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Hbod'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1161,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "ot;5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switc"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "89d7d4615139adab83fa3e8995671651cdfb3462c9a900f4bc1e16a8352ea605"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Vbfofs'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1219,
-      "length": 6,
-      "code": {
-        "startLine": 4,
-        "length": 6,
-        "offset": 900,
-        "surroundingCode": "TML, like Gecko) Chrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "07a315e9c912fb22a4e83ca182d3067f3901ec6e8cb99b7d570f5c6c14642035"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Kkcj'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1237,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "hrome/97.0.4692.45 Safari/537.36&quot; etag=&quot;iO5QUPQpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFe"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "07bc7a536f14b148016f64897dc197d92321e49900dc957815a8587583591172"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Rbxfykqi'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1293,
-      "length": 8,
-      "code": {
-        "startLine": 4,
-        "length": 8,
-        "offset": 900,
-        "surroundingCode": "QpGXaVvfMkjczM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "0e188daf2386ff67355dbda0e02d1cf3dabd17857af8a1490efa02b3b014fb0b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Wffbpc'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1305,
-      "length": 6,
-      "code": {
-        "startLine": 4,
-        "length": 6,
-        "offset": 900,
-        "surroundingCode": "zM&quot; version=&quot;15.5.4&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"ove"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "06289ac9a194765869fc6a87ea4ede89317e0caf7e6b810c4db52828cae39ee3"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Uwwx'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1348,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "uot;embed&quot;&gt;&lt;diagram id=&quot;qD9gl5usz1IAPuvlwag3&quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xml"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "86439ebb234d3a583308d15acc9a00d78d9bc34880f40585f21631f20fb6274e"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Smke'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1409,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "quot; name=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "3a88ac095f57752b196253c4e4b65c20c23457f430e24101d188131936a872bc"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Xhiymq'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1418,
-      "length": 6,
-      "code": {
-        "startLine": 4,
-        "length": 6,
-        "offset": 900,
-        "surroundingCode": "e=&quot;Page-1&quot;&gt;3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: u"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "5e61e90a4ddf7a6f85ce376795aada3265b661f5167c78212952df15a26d3986"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Zaeoh'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1441,
-      "length": 5,
-      "code": {
-        "startLine": 4,
-        "length": 5,
-        "offset": 900,
-        "surroundingCode": ";3VfbUtswEP2avHZim1x4JAmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-c"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "5da4548808d2ecdd78efa6bc68c69e1ff44ad3008b09116455c90b447e234969"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Gwsd'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1463,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "AmUMtBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center;"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "548ee3c625941deb98b33cf9043868dceb01518354279d44d5c95476d62627ca"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Bbsu'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1467,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "tBS0pnSR2EvtlrZ61Fk4vTru45XcRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; wid"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "0a9cd6eeffa170c881f2da16ef6d9cea622777d473b134eca21933bfbe23efe9"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'Tqrdm'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1494,
-      "length": 5,
-      "code": {
-        "startLine": 4,
-        "length": 5,
-        "offset": 900,
-        "surroundingCode": "cRzlApNM6fQFtEe70uqcXSnuBOO0/KhFntxhBKrjd6OyE0w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; pad"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "98ddcb4e80919b37152e021dec107d36bacb6c722d3c05bbbe9cbe9a45eef7cd"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'defs'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1540,
-      "length": 4,
-      "code": {
-        "startLine": 4,
-        "length": 4,
-        "offset": 900,
-        "surroundingCode": "w6vt/vDulvBSxqIBj0aiDWMqohrwGm8jcw2GW0kBHMWo4GURmZt8EQswxC08KE1jhvuz2jau+aixgcYBoK5aLfZWSSGh32ug1+DTJO7M5el2dSYZ0ZmCUiwvkaFFx2grFGNPUoLcegKu4sL3Xc1Y7ZVWIaMvOqAL+OeBGq4MNxYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 110px; margin-left: 31px;\"><div styl"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "527808e2a8159bb78095854694f01510a7474fe1ce9b10750a2179be349869dd"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'miterlimit'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/images/qodana/qodana-concepts.dio.svg",
-      "language": "TEXT",
-      "line": 4,
-      "offset": 1709,
-      "length": 10,
-      "code": {
-        "startLine": 4,
-        "length": 10,
-        "offset": 900,
-        "surroundingCode": "xYmZhT6uxyCKoArqdYDRPpIFpLsJqdk7yEpaYVJHl0fBZKjVGhZrsDDNyGs2Mxl+wAfK2oA2UO3P3VoxQJQGmYPSCXDjA0s1F5J2zPW8k6VmekzU5qP64FLgM4tXSDVM0YLK2E3d+mDeIqGjYRG0SjDET6rJBR21mG59bxJz5/AnGLLgDRGGwzfYOyigNLHTIeXBvGaFjYK9+DVUZ7mVagxJGvrTL/hjaelto6ytTVUkuMhrH1XiCYZHSkWhvzKzDk7bT9F+kVd0p17qYhVJS/AptR1jLXZHXulrPw5GU2jWvhsS4UAoUxlqk5JiDlsQF6M25+2bicOeUYO+6vdo6TbOzQ4btDvEHbod42zrkFA1i7+p37hAiTy8eOX5p/KiMDz1rTsr1ycmCrVd1Vt/trMF7dVbfofsGzEgLmc3cev+KkcjE2zqLHlNDq4He31rHPB4nKHn/7B1rfuBo8AA5FS1hSs6MzOJK+ULRbxfykqiWF9wWffbpcP3t7vZNEthLK+Jb9bAOT7Vot08nFObM3xDGf6UwwxMIM3SEmV48fLpa9iELNJeUxfHq3Ey/fP4P1AmCv6iO5zny/EtPhX/orYBSmke7CI3XXhiymqDKOPZ9GZ76feHQe5SZaeohGGzUg7ehc50mR61/YGwsdBbsuI/tQvXhnIWWNbM6z7YyIrP5Tqrdm4/N4PIP&lt;/diagram&gt;&lt;/mxfile&gt;\"><defs/><g><rect x=\"0\" y=\"0\" width=\"520\" height=\"260\" fill=\"none\" stroke=\"none\" pointer-events=\"all\"/><path d=\"M 140 110 L 183.63 110\" fill=\"none\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 188.88 110 L 181.88 113.5 L 183.63 110 L 181.88 106.5 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 30 140 L 50 80 L 150 80 L 130 140 Z\" fill=\"#ffffff\" stroke=\"#000000\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\" style=\"overflow: visible; text-align: left;\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 110px; margin-left: 31px;\"><div style=\"box-sizing: border-box; font-size: 0px; text-align: center;\"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-hei"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "f0e0512b90063b7076ca3fcf929ed052676f09b81a0b33f2c76977ff05552d8d"
+  "hash": "73375151491493dc5f9e9d63e41674e1e693a27f566f74ccd660e0046cd7e0a0"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3449,35 +1999,6 @@
     "baselineState": "new"
   },
   "hash": "0beea4e5329f0cd1e21cc484061a802a88e9bdba04d9cc706c6624270c23c4b4"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ignorecase'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": ".grazie.en.yaml",
-      "language": "TEXT",
-      "line": 8,
-      "offset": 1,
-      "length": 10,
-      "code": {
-        "startLine": 6,
-        "length": 10,
-        "offset": 189,
-        "surroundingCode": "extends: existence                # check for unwanted words or phrases\nmessage: Don't use '%s'           # a message to display in the inspection tooltip when a matching fragment is found\nignorecase: true\nraw:\n  - you"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "a471257333da3e6c6aac4874a5e87350bade32662a67158c2637c72e6a21fba0"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3936,11 +2457,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 102,
+      "line": 93,
       "offset": 95,
       "length": 11,
       "code": {
-        "startLine": 100,
+        "startLine": 91,
         "length": 11,
         "offset": 207,
         "surroundingCode": "For this example, the JavaScript bundle must be named _/hljs/highlight.min.js_.\nSee the next item for the theme.\n<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder."
@@ -3953,7 +2474,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "ab2cb222af5697cf5bee74b9020dd0f02f5279119a45e576e632950b23b83606"
+  "hash": "d1c91c5a7a90e28da65ded7c4451be098c4e4675185a3a21155633a5f0f32755"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3966,11 +2487,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 104,
+      "line": 95,
       "offset": 141,
       "length": 6,
       "code": {
-        "startLine": 102,
+        "startLine": 93,
         "length": 6,
         "offset": 332,
         "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
@@ -3983,7 +2504,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "96737915306acef58932c2620a252e7bd713fd2b984eae4fac004cf605ba0e05"
+  "hash": "20f507ccc920072bf600d853081b5d31f34152bc10d11a2cae0d4bb5d71d897c"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -3996,11 +2517,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 104,
+      "line": 95,
       "offset": 29,
       "length": 11,
       "code": {
-        "startLine": 102,
+        "startLine": 93,
         "length": 11,
         "offset": 220,
         "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
@@ -4013,7 +2534,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "deb9f710e3dcf451469dd42dd5bd6eb333c99aa59f8266d3e173d92748d058a2"
+  "hash": "40e684805a29159a2b04a88622d76c0ad06702177cf4ffa5eefb3cfa848de68b"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4026,11 +2547,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 104,
+      "line": 95,
       "offset": 65,
       "length": 6,
       "code": {
-        "startLine": 102,
+        "startLine": 93,
         "length": 6,
         "offset": 256,
         "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
@@ -4043,7 +2564,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "92b8c8f800352c661bffbf5926183b3bf495d7546f799a501a40c7d231223d7d"
+  "hash": "5cb05201fdd990b3add4e5b0e88dec905abd1acb913d1e9a4d29de69b7028159"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -4056,11 +2577,11 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/preview/source-highlighting.adoc",
       "language": "AsciiDoc",
-      "line": 104,
+      "line": 95,
       "offset": 119,
       "length": 6,
       "code": {
-        "startLine": 102,
+        "startLine": 93,
         "length": 6,
         "offset": 310,
         "surroundingCode": "<.> If the user specifies a _highlightjsdir_, they can override the highlighting theme using _highlightjs-theme_.\nA CSS file matching the selected theme must be placed in the current project.\nIf a user does not specify _highlightjs-theme_, the default is _github_ and the user must place the CSS file for the _github_ theme in the _styles_ folder.\nFor this example, it must be named _/hljs/styles/default.min.css_.\n<.> If the user specifies a _highlightjsdir_, the user can specify additional languages for highlighting using _highlightjs-languages_."
@@ -4073,7 +2594,7 @@
     "isTechDebt": "true",
     "baselineState": "unchanged"
   },
-  "hash": "698a30f2a0044f0cf691f659ef3fab06ffc5ec641404ca05a2c087e7a674aa8a"
+  "hash": "18d184a24b93f3b5289e5833077fc276c99dce72ffa31e47e3fb0bc98ab466cc"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
