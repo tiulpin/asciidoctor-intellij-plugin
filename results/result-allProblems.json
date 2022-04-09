@@ -24,7 +24,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "a536771bda63c51d518b1b3321b69db2880543624c68d90101f9028acce3181b"
 },{
@@ -53,7 +54,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "c9e466b53b691a051a23b05a004dc20f4c544b0ae4a8599f875c08335dd3eb1c"
 },{
@@ -82,7 +84,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "439b167f809037ef71d488f2b6462f2866133dde8b950d9a83796e0be3394396"
 },{
@@ -111,7 +114,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "d680e22d7d5a40e26c801f0bdef25fe77773967fc28b522abf2cb85897207e42"
 },{
@@ -140,7 +144,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "0efd55f679f50f9b7d5fd4af88ef28e8eb23c78acdd97ee0551a36b311a7d074"
 },{
@@ -169,7 +174,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "3afdad3c0b70d75d013f030cdd0e0729d5e4b9a34bef421a3542dcd5c268fcb2"
 },{
@@ -198,7 +204,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "f3b3ac16727a0864959f8176c4fcb139cce047a08dddd61dbda73daf82e27e7d"
 },{
@@ -227,7 +234,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "0262d31643129266cec737addefeb764562947abd096e0c539624f71f26e1ff3"
 },{
@@ -256,7 +264,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "bd5a702a75c9aac8531d6f6c337deceac10b52c8d76796da652b5dbcfee910a1"
 },{
@@ -285,7 +294,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "4e94609bc425e94798ce4bd7f1c83502edc9efa3157f42804bc532548b512387"
 },{
@@ -314,7 +324,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "307b632d6f4d9d35b8f67252b99fb1610b9886a137f8811ea5e31bc325a81df4"
 },{
@@ -343,7 +354,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "1ff623a020d1c3112241e76e6f8a5e2061cc070e6379379b2bc43b73ebf1c842"
 },{
@@ -372,7 +384,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "3c931b9f342370a623fa4e3d8809e90e0f2a021339b10fdb0fa4ab693e8981a0"
 },{
@@ -401,7 +414,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "d681f402c9e40079107f2fbb7344e2992128aae6739e25488e90b2ffc19316d7"
 },{
@@ -430,7 +444,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "642086aafe85c8dade2390c701d66257573e429236ca18c135539e017c9ab92e"
 },{
@@ -459,7 +474,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "7b532225e1b1da0ba858897486bd917eaa0464d480b38104c45f6c84953e4aff"
 },{
@@ -488,7 +504,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "1769ebad84eec32221f82e6cd89534165faefdd1b94b69a625a7f5e4d1c34237"
 },{
@@ -517,7 +534,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "d13ce5eac3226a0b3508243abc627c6589db12a2521ca9c60d369e91f2a73df8"
 },{
@@ -546,7 +564,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "a29461ae10f32bedd35a3989aaea9a15116bd194e6736caa40f467fcade98fd8"
 },{
@@ -575,7 +594,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "58e814b95df862da72f7d8ae5e00532a367eef34b496bd9ab80865dd498a2956"
 },{
@@ -604,7 +624,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "6967154e9dbacb337545b39c6df95772a870efd210b9d53c8d7b525b06de5855"
 },{
@@ -633,7 +654,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "22c065b56e49118011a7bfa98f4aa93ebba0ce64cf762821fc2265c8cdd656eb"
 },{
@@ -662,7 +684,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "d0078e05a8764404d2046f41b26ee2bd823b3426a08f31861a882aa52796fa23"
 },{
@@ -691,7 +714,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "f2bb338a6770dbaf6419e9e096559cb0fbabaf878667d6e4d05af10ea2c70bd0"
 },{
@@ -720,7 +744,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "56749034753358bafc5802d2baadd1c2fc086f1a31dc8c8fdd4ea96e30f45c8e"
 },{
@@ -749,7 +774,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "ffa800700234b0b64c1cfe95b7c12f83e66aa8d00efcc787d37c6ab8996eb3d9"
 },{
@@ -778,7 +804,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "abec9bdc94d1eba0485d29b37f85c8cab586717aaf6cc564d0ac813e49870de1"
 },{
@@ -807,7 +834,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "6b0a6e6d559dc250df84a78774b51a3d50430ed6bdf6598fe9fe4a83de46d170"
 },{
@@ -836,7 +864,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "94c91b7d91a557ed88337a9816a15edbbe03d7123ee605aedd1cd2ca22444fdd"
 },{
@@ -865,7 +894,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "e3310371c2dd14ab3d9507358ed2537e39c7c3e81c4932a00666a59a044fbf70"
 },{
@@ -894,7 +924,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "44934747c7d6d568daecf0e8ca71b07b33fe8ded070df5ecafde92ba5ca3cde5"
 },{
@@ -923,7 +954,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "5859f490948ca6c0a8b7ed50822d4730254ba5a69adf685ea6328387ac870840"
 },{
@@ -952,7 +984,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "ce048c0c0f6eca06e7d0a8ca0a93f44dc7dc5f48a64e5f4befa7e61d1d5b0736"
 },{
@@ -981,7 +1014,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "c8d7419a7bf244af9adcc29999b4b363e8d32b65fc18c2e2aba86640699468d8"
 },{
@@ -1010,38 +1044,10 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "7ba9add3c2770ad59c669e11ff0a82d3bf4335b5706b0bf0e914fcf0aebf15a5"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'tagname'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
-      "language": "AsciiDoc",
-      "line": 49,
-      "offset": 24,
-      "length": 7,
-      "code": {
-        "startLine": 47,
-        "length": 7,
-        "offset": 53,
-        "surroundingCode": "Some text from another file:\n\n\\include::text.txt[tag=tagname]\n----\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "a7d8f9ae80f2fe31c7855dc1934ec0216253338d1cc56c2a5ca7e2a9fabaef66"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1068,7 +1074,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "ecdd4eb4ee94c205818433ef3aeeca5823674505522e3d5d3e874a403c332c4c"
 },{
@@ -1097,7 +1104,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "379e4677e6277271445ae5f6675917fd6d94f8f6eae491ef56e301dec475fd85"
 },{
@@ -1105,59 +1113,31 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
+  "comment": "Typo: In word 'tagname'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
     {
       "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
       "language": "AsciiDoc",
-      "line": 32,
-      "offset": 2,
-      "length": 6,
+      "line": 49,
+      "offset": 24,
+      "length": 7,
       "code": {
-        "startLine": 30,
-        "length": 6,
-        "offset": 24,
-        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+        "startLine": 47,
+        "length": 7,
+        "offset": 53,
+        "surroundingCode": "Some text from another file:\n\n\\include::text.txt[tag=tagname]\n----\n"
       }
     }
   ],
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
-  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'ifeval'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
-      "line": 36,
-      "offset": 2,
-      "length": 6,
-      "code": {
-        "startLine": 34,
-        "length": 6,
-        "offset": 13,
-        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
+  "hash": "a7d8f9ae80f2fe31c7855dc1934ec0216253338d1cc56c2a5ca7e2a9fabaef66"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1184,7 +1164,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "ca329b5171a060eb63fe6bdf7d5c4482007b5521386b21dd6a008d0fd68b5b5e"
 },{
@@ -1213,9 +1194,70 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "a729b46c0e468f99a8bbf7bf98f8cfc00c5de4a8ccc29e16aeef38f95777478c"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 32,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 30,
+        "length": 6,
+        "offset": 24,
+        "surroundingCode": "[source,asciidoc]\n----\n\\ifeval::[{env}!=idea]\nrender this text WHEN NOT running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "e06620fc029728488f5cd97d6586d60c385686735cac956ac02c306e2c57ab9b"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'ifeval'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 36,
+      "offset": 2,
+      "length": 6,
+      "code": {
+        "startLine": 34,
+        "length": 6,
+        "offset": 13,
+        "surroundingCode": "\\endif::[]\n\n\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "c93694662a02ac1050144d7e143c901cc415e240625d87479c2c0909d797dcac"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
@@ -1242,7 +1284,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "5d118e3d284f00c142a66d9cdcd5630ec856d257215adb4501a8d93b49f964d2"
 },{
@@ -1271,7 +1314,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "2bec2e205bcc6456daa68333e383992a29ba22577c11862968cb0b75e65d00f6"
 },{
@@ -1300,7 +1344,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "bca325c437beacc161bb9a3596da663d55a8deec22b52270da794a7fcca927d4"
 },{
@@ -1329,7 +1374,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "862a48e71d50c784384530f626cc5fee148cc8403b3419f00f12353f246ff0b9"
 },{
@@ -1358,7 +1404,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "d9ee58a85f1d42f57f00d81b4603c059e6372d2bf7cbf18ab5aa9e41ae90514b"
 },{
@@ -1387,7 +1434,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "553ed7bcf428537b11afb5fd9c59bca310989b000e9d81467388bec156929be2"
 },{
@@ -1416,7 +1464,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "1952abd17d8f6128d1dafc07bc607708728496deb745535256044814f2dcc6ac"
 },{
@@ -1445,7 +1494,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "7d1800680011ed68eddc3103e2c37622cbeeb9517e6f6d2869df7e58a0d3e988"
 },{
@@ -1474,7 +1524,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "faf1e8dc90c473d30d51926799799f9617b1f60672ad5d5e211a1b9fff8e2b33"
 },{
@@ -1503,7 +1554,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "e57fd61571cce32c94432079cc0dc4442724c4442588a4ae6c92830c285e5186"
 },{
@@ -1532,7 +1584,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "b34a652f471b585f11e185a06c6cfd01bfbf8a1a85d68f907a807ff4d987be98"
 },{
@@ -1561,7 +1614,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "5e2d606716ad8afa68a2fc36f3d99bd6d80c701623c244bc26c0deeddd082144"
 },{
@@ -1590,7 +1644,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "5c585512ea7959f9d68a41de4a67bfb9ab276759dbf957d2ab4f45dad7c6df51"
 },{
@@ -1619,7 +1674,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "15dec427fdfaa4a2500b3aef4dca8cb986719314f69479c15c3c64d266e5b716"
 },{
@@ -1648,7 +1704,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "cc51e0e573ffd6d3e38248cdaf46712fa93b584b8201bc9187dd77abd23a3503"
 },{
@@ -1677,7 +1734,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "fcedd690436227ec835b35c1e0e58aebd6041f646ccd12341cb05b1495151300"
 },{
@@ -1706,7 +1764,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "8136f65824441b13fd171a44530715e746f3c46456e8ba3841843ba27e839240"
 },{
@@ -1735,7 +1794,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "510b0e3e745663ff560e97c11f0dae4ea0ab259488aeb060521d8b930d59a911"
 },{
@@ -1764,7 +1824,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "c6a3f7912c897b112208ab0a979c4cfc853ffd31e512a00150f8927f7b63c886"
 },{
@@ -1793,7 +1854,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "694be7023d25d4171bcfe923fc8b2928ed8a7e5eca484433b170026345fdb147"
 },{
@@ -1822,7 +1884,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "66e76653b0157e9c7dac7a661b384dc197f621f9331f46b1c9fcf7c588eb3c65"
 },{
@@ -1851,7 +1914,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "73375151491493dc5f9e9d63e41674e1e693a27f566f74ccd660e0046cd7e0a0"
 },{
@@ -1880,7 +1944,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "a3ef2cc42f9a722c841f62f69fc0229d780fb38c83af3f9e5ccc7e6b192bf3e9"
 },{
@@ -1909,7 +1974,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "bd68978fd57b8293918fd317fa2663e5964f7650e055cce4b525a44351d9dabd"
 },{
@@ -1938,7 +2004,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "0beea4e5329f0cd1e21cc484061a802a88e9bdba04d9cc706c6624270c23c4b4"
 },{
@@ -1967,7 +2034,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "5822db17757da2b0470bc67df2bc6bfd49b7c57e2f914af74551a6b0a3947923"
 },{
@@ -1996,7 +2064,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "c5990d57d8e379d4b8a4e35dfe1ad3e2d28c572ad14569a3c95b883b8c65ec5c"
 },{
@@ -2025,7 +2094,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "9654a032623d889edbbbf1ba8b10d0d5715be9aa9beba9b88ce523b1da12901c"
 },{
@@ -2054,7 +2124,8 @@
   "attributes": {
     "module": "project",
     "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
   },
   "hash": "dd8ff9ea815aea4230025c54be5bb70aa6e3149337a5e1e67f996f922756edcd"
 },{
@@ -2999,36 +3070,6 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
       "language": "AsciiDoc",
-      "line": 38,
-      "offset": 7,
-      "length": 2,
-      "code": {
-        "startLine": 36,
-        "length": 2,
-        "offset": 85,
-        "surroundingCode": "\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]\n----\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "GrazieInspection",
-    "isTechDebt": "true",
-    "baselineState": "unchanged"
-  },
-  "hash": "b4e3a933038a8f093e4d129d72c8516688653c40c434f95c96ec43a731141932"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Grammar",
-  "severity": "High",
-  "comment": "Too many punctuation marks",
-  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
-      "language": "AsciiDoc",
       "line": 25,
       "offset": 7,
       "length": 2,
@@ -3047,6 +3088,36 @@
     "baselineState": "unchanged"
   },
   "hash": "5d225d16416e3982757ec66882b7a613d52770d195aa456933bd598da8dd6141"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Grammar",
+  "severity": "High",
+  "comment": "Too many punctuation marks",
+  "detailsInfo": "Reports grammar mistakes in your text. You can configure the inspection in [Preferences](settings://reference.settingsdialog.project.grazie).",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/conditional-rendering.adoc",
+      "language": "AsciiDoc",
+      "line": 38,
+      "offset": 7,
+      "length": 2,
+      "code": {
+        "startLine": 36,
+        "length": 2,
+        "offset": 85,
+        "surroundingCode": "\\ifeval::[{env}==idea]\nrender this text IF running IntelliJ Asciidoctor Plugin\n\\endif::[]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "GrazieInspection",
+    "isTechDebt": "true",
+    "baselineState": "unchanged"
+  },
+  "hash": "b4e3a933038a8f093e4d129d72c8516688653c40c434f95c96ec43a731141932"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
