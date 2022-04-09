@@ -1025,6 +1025,35 @@
       "type": "file",
       "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
       "language": "AsciiDoc",
+      "line": 49,
+      "offset": 24,
+      "length": 7,
+      "code": {
+        "startLine": 47,
+        "length": 7,
+        "offset": 53,
+        "surroundingCode": "Some text from another file:\n\n\\include::text.txt[tag=tagname]\n----\n"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "a7d8f9ae80f2fe31c7855dc1934ec0216253338d1cc56c2a5ca7e2a9fabaef66"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
+  "comment": "Typo: In word 'tagname'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
+      "language": "AsciiDoc",
       "line": 36,
       "offset": 9,
       "length": 7,
@@ -1071,35 +1100,6 @@
     "baselineState": "new"
   },
   "hash": "379e4677e6277271445ae5f6675917fd6d94f8f6eae491ef56e301dec475fd85"
-},{
-  "tool": "Code Inspection",
-  "category": "Proofreading",
-  "type": "Typo",
-  "severity": "High",
-  "comment": "Typo: In word 'tagname'",
-  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
-  "sources": [
-    {
-      "type": "file",
-      "path": "users-guide/modules/ROOT/pages/features/advanced/livetemplates.adoc",
-      "language": "AsciiDoc",
-      "line": 49,
-      "offset": 24,
-      "length": 7,
-      "code": {
-        "startLine": 47,
-        "length": 7,
-        "offset": 53,
-        "surroundingCode": "Some text from another file:\n\n\\include::text.txt[tag=tagname]\n----\n"
-      }
-    }
-  ],
-  "attributes": {
-    "module": "project",
-    "inspectionName": "SpellCheckingInspection",
-    "baselineState": "new"
-  },
-  "hash": "a7d8f9ae80f2fe31c7855dc1934ec0216253338d1cc56c2a5ca7e2a9fabaef66"
 },{
   "tool": "Code Inspection",
   "category": "Proofreading",
