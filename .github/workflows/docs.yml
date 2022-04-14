@@ -26,23 +26,6 @@ jobs:
         # Check out current repository
         uses: actions/checkout@v3
 
-      - name: Download AsciiDoc plugin for AsciiDoc checks
-        run: |
-          curl -L -o asciidoctor-intellij-plugin.zip https://github.com/asciidoctor/asciidoctor-intellij-plugin/releases/download/0.37.8/asciidoctor-intellij-plugin-0.37.8.zip
-          unzip asciidoctor-intellij-plugin.zip
-
-      - name: Download Grazie plugin for grammar checks
-        # https://plugins.jetbrains.com/plugin/12175-grazie/versions
-        run: |
-          curl -L -o grazie.zip 'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=153738'
-          unzip grazie.zip
-
-      - name: Download Grazie Professional plugin for grammar checks
-        # https://plugins.jetbrains.com/plugin/16136-grazie-professional/versions
-        run: |
-          curl -L -o grazie-pro.zip 'https://plugins.jetbrains.com/plugin/download?rel=true&updateId=160044'
-          unzip grazie-pro.zip
-
       - name: 'Qodana for Docs'
         uses: JetBrains/qodana-action@v5.0.4
         with:
@@ -50,9 +33,6 @@ jobs:
           args: >
             --linter,jetbrains/qodana-jvm-community:latest,
             --project-dir,${{ github.workspace }}/doc,
-            -v,${{ github.workspace }}/grazie:/opt/idea/plugins/grazie,
-            -v,${{ github.workspace }}/grazie-pro:/opt/idea/plugins/grazie-pro,
-            -v,${{ github.workspace }}/asciidoctor-intellij-plugin:/opt/idea/plugins/asciidoctor-intellij-plugin,
             --baseline,qodana-baseline.sarif.json
           use-annotations: false
       - name: Add "doc" to paths as qodana ran from "doc" folder
