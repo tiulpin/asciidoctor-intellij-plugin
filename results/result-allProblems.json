@@ -3,6 +3,35 @@
   "category": "Proofreading",
   "type": "Typo",
   "severity": "High",
+  "comment": "Typo: In word 'grazi'",
+  "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
+  "sources": [
+    {
+      "type": "file",
+      "path": "qodana.yaml",
+      "language": "TEXT",
+      "line": 7,
+      "offset": 15,
+      "length": 5,
+      "code": {
+        "startLine": 5,
+        "length": 5,
+        "offset": 88,
+        "surroundingCode": "  - id: org.asciidoctor.intellij.asciidoc\n  - id: com.intellij.grazie.pro\n  - id: tanvd.grazi\nexclude:\n  - name: All"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "project",
+    "inspectionName": "SpellCheckingInspection",
+    "baselineState": "new"
+  },
+  "hash": "50ff87c3f42bba41c9c684a086240c2e0cb54f62f8514dcecae9f96588c18015"
+},{
+  "tool": "Code Inspection",
+  "category": "Proofreading",
+  "type": "Typo",
+  "severity": "High",
   "comment": "Typo: In word 'Errno'",
   "detailsInfo": "Reports typos and misspellings in your code, comments, and literals and fixes them with one click.",
   "sources": [
