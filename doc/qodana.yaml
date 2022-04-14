@@ -1,7 +1,10 @@
-version: 1.0
-
+version: "1.0"
 profile:
   path: asciidoc-inspection.xml
+plugins:
+  - id: org.asciidoctor.intellij.asciidoc
+  - id: com.intellij.grazie.pro
+  - id: tanvd.grazi
 exclude:
   - name: All
     paths:
