@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: 'Qodana for Docs'
-        uses: JetBrains/qodana-action@v5.0.4
+        uses: JetBrains/qodana-action@v2022.2.1
         with:
           # https://hub.docker.com/r/jetbrains/qodana-jvm-community/tags
           args: >
